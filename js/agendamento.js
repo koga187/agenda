@@ -26,6 +26,17 @@ $(document).ready(function(){
         $('td.Tarefa').append($novaTarefa);
     });
 
+    $('#calendar').fullCalendar({
+        defaultView: 'Month',
+        events: [
+            // events go here
+        ],
+        resources: [
+            // resources go here
+        ]
+        // other options go here...
+    });
+
     //$('.tarefaAgendada').
 });
 

@@ -1,7 +1,641 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410efdef-9707-4277-b8ab-fe992a4b6ab8" name="Default" comment="">
+    <list default="true" id="410efdef-9707-4277-b8ab-fe992a4b6ab8" name="Default" comment="Initial commit&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_2694e8_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_3d80b3_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_72a7cf_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.jscs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.spmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/CONTRIBUTING.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/Moment.js.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/meteor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/abs-ceil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/abs-floor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/abs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/add-subtract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/add-subtract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/add_subtract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/agenda-views.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/aliases.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/templates/amd-named.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/templates/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/as.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/background-events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/banner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/basic-views.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/bo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/bo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/bower.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/example/browser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/bubble.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/bump_version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/check-overflow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/check_sauce_creds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/benchmarks/clone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/clone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/compare-arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/compare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/coverage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/benchmark/create-schedule-bench.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/core/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/creation-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/creation-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/cv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/cv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/cv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/date-from-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/date/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/day-of-month.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/day-of-week.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/day-of-year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/days_in_month.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/benchmark/dependency-graph-bench.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/core/dependency-graph-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/core/dependency-graph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/deprecate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/deprecate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/duration_from_moments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/dv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/dv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/dv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/helpers/each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/embed_locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/end.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/ender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/json/events.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/meteor/export.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/external-dragging.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/format/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/formats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-anything.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-string-and-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-string-and-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/from.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/benchmarks/fromDate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/benchmarks/fromDateUtc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/from_to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/util/functor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/fy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/fy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/gcal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/gcal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/gd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/gd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/gd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/php/get-events.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/get-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/php/get-timezones.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/get.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/getters_setters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/templates/globals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/has-own-prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/hooks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/hour.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/humanize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/hy-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/hy-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hy-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/index-browserify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/compat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/core/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/date/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/sort/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/compat/indexof.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/instanceof.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/invalid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/invalid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-undefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_after.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_before.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_between.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_same.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_same_or_after.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_same_or_before.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/compat/isarray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/iso-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/jv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/jv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/jv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/languages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/leapyear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/listers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/lists.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/lo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/lo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/templates/locale-header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/min/locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/min/locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/benchmarks/makeDuration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/util/memoized-range-fn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/millisecond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/min-max.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/min_max.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/minute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/min/moment-with-locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/min/moment-with-locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lib/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/min/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/month.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/mr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/mr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/mr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/mutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/normalize_units.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/now.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/now.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/scripts/npm_prepublish.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/nuget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/ordinal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/meteor/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/parsing-flags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/parsing_flags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/pre-post-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/preparse_postformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/example/project-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projeto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/qtest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/quarter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/quarter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/parse/regex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/relative.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/relative_time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/example/reservation-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/core/resource-manager-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/core/resource-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/core/resources-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/core/resources.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/core/schedule-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/schedule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/schedule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/schedule.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/se.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/se.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/se.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/second.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/selectable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/example/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/size.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/sort/sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/start-end-of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/start_end_of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/string_prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/test/core/tasks-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/core/tasks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/sort/tasks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/te.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/te.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/te.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/templates/test-header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/meteor/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/min/tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/timestamp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/timezone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/schedule-master/src/date/timezone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/timezones.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/tl-ph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/tl-ph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tl-ph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/tlh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/tlh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tlh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/to-int.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/to-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/to_type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/parse/token.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/transpile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/tzl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/tzl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tzl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/tzm-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/tzm-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tzm-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/tzm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/tzm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tzm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/units.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/update_index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/utc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/utc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/utc_offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/demos/php/utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/uz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/uz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/uz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/week-calendar-utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/week-year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/week.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/week_year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/weekday.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/weeks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/weeks_in_year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/zero-fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/benchmarks/zeroFill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fullcalendar/lang/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/zone_switching.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/zones.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment-develop/tasks/zones.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/agendamento.js" afterPath="$PROJECT_DIR$/js/agendamento.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agendamento.iws" />
@@ -29,28 +663,84 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.84" vertical-offset="656" max-vertical-offset="2042">
-              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+            <state vertical-scroll-proportion="-5.76" vertical-offset="752" max-vertical-offset="2042">
+              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agendamento.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/agendamento.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1331">
+              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
               <folding>
-                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1455920316622" expanded="true" signature="87:107" placeholder="SELECT * fro..status..." />
-                <marker date="1455920316622" expanded="true" signature="93:107" placeholder="select * fro..status..." />
+                <element signature="e#28#1197#0" expanded="true" />
+                <element signature="e#184#225#0" expanded="true" />
+                <element signature="e#275#319#0" expanded="true" />
+                <element signature="e#366#408#0" expanded="true" />
+                <element signature="e#465#932#0" expanded="true" />
+                <element signature="e#1016#1057#0" expanded="true" />
+                <element signature="e#1078#1122#0" expanded="true" />
+                <element signature="n#!!block;n#adicionaTarefa#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agendamento.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/agendamento.js">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34836704" vertical-offset="144" max-vertical-offset="1155">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/banner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="839">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projeto.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projeto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46601942" vertical-offset="336" max-vertical-offset="2122">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
-                <element signature="e#184#225#0" expanded="true" />
-                <element signature="e#275#319#0" expanded="true" />
-                <element signature="e#366#408#0" expanded="true" />
-                <element signature="n#!!block;n#adicionaTarefa#0" expanded="true" />
+                <element signature="e#211#273#2#PHP" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1456176826056" expanded="true" signature="98:119" placeholder="SELECT * FRO..projeto..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullcalendar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/fullcalendar/fullcalendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="60080">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullcalendar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/fullcalendar/fullcalendar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18624">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,6 +769,9 @@
         <option value="$PROJECT_DIR$/css/agendamento.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/agendamento.js" />
+        <option value="$PROJECT_DIR$/footer.html" />
+        <option value="$PROJECT_DIR$/banner.html" />
+        <option value="$PROJECT_DIR$/projeto.php" />
       </list>
     </option>
   </component>
@@ -129,7 +822,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="agendamento" />
+              <option name="myItemId" value="agenda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -139,11 +832,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="agendamento" />
+              <option name="myItemId" value="agenda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -153,15 +846,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moment-develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="agendamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,9 +884,13 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno.koga\Vagrant\agenda\libs" />
+      <recent name="C:\Users\bruno.koga\Vagrant\agenda\js" />
       <recent name="C:\xampp\htdocs\agendamento\css" />
       <recent name="C:\xampp\htdocs\agendamento\js" />
       <recent name="C:\xampp\htdocs\agendamento" />
@@ -200,10 +911,16 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -230,30 +947,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52430046" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41678938" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2284041" sideWeight="0.4986842" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.284041" sideWeight="0.49870467" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.284041" sideWeight="0.49870467" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28038067" sideWeight="0.5012953" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42562592" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8129602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1011" y="220" width="345" height="113" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41678938" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -279,19 +996,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Windows/System32/drivers/etc/hosts">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09756097" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="1472">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../apache/conf/extra/httpd-vhosts.conf">
+    <entry file="file://$PROJECT_DIR$/js/agendamento.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46341464" vertical-offset="0" max-vertical-offset="9200">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="96">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#28#1197#0" expanded="true" />
+            <element signature="e#184#225#0" expanded="true" />
+            <element signature="e#275#319#0" expanded="true" />
+            <element signature="e#366#408#0" expanded="true" />
+            <element signature="e#465#932#0" expanded="true" />
+            <element signature="e#1016#1057#0" expanded="true" />
+            <element signature="e#1078#1122#0" expanded="true" />
+            <element signature="n#!!block;n#adicionaTarefa#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agendamento.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="80">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Windows/System32/drivers/etc/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09756097" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -300,7 +1041,7 @@
         <state vertical-scroll-proportion="-8.4" vertical-offset="4958" max-vertical-offset="7431">
           <caret line="784" column="20" selection-start-line="784" selection-start-column="20" selection-end-line="784" selection-end-column="20" />
           <folding>
-            <element signature="e#19620#20825#0#PHP" expanded="true" />
+            <element signature="e#19620#20825#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -309,9 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02488336" vertical-offset="0" max-vertical-offset="659">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -325,25 +1063,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.84" vertical-offset="656" max-vertical-offset="2042">
-          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1455920316622" expanded="true" signature="87:107" placeholder="SELECT * fro..status..." />
-            <marker date="1455920316622" expanded="true" signature="93:107" placeholder="select * fro..status..." />
-          </folding>
+        <state vertical-scroll-proportion="-5.76" vertical-offset="752" max-vertical-offset="2042">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="839">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/agendamento.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34836704" vertical-offset="144" max-vertical-offset="1155">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1331">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           <folding>
+            <element signature="e#28#1197#0" expanded="true" />
             <element signature="e#184#225#0" expanded="true" />
             <element signature="e#275#319#0" expanded="true" />
             <element signature="e#366#408#0" expanded="true" />
+            <element signature="e#465#932#0" expanded="true" />
+            <element signature="e#1016#1057#0" expanded="true" />
+            <element signature="e#1078#1122#0" expanded="true" />
             <element signature="n#!!block;n#adicionaTarefa#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/fullcalendar/fullcalendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/fullcalendar/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="60080">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/moment-develop/templates/amd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46601942" vertical-offset="336" max-vertical-offset="2122">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="e#211#273#2#PHP" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1456176826056" expanded="true" signature="98:119" placeholder="SELECT * FRO..projeto..." />
           </folding>
         </state>
       </provider>
