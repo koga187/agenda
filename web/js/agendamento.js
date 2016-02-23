@@ -1,7 +1,7 @@
-$(document).ready(function(){
-    var $body = $('body');
+var $body;
 
-    $('span#Tarefa').attr('data-toggle', 'modal').attr('data-target','#modalTarefa');
+$(document).ready(function(){
+    $body = $('body');
 
     $('td.Tarefa').droppable(function(){
         alert('trabaia cumpadi');
@@ -15,27 +15,29 @@ $(document).ready(function(){
         alert('Finaliza cumpadi');
     });
 
-    $body.on('click', '#salvarFormulario', function(){
-        $novaTarefa = $('.tarefaView').clone();
-        $novaTarefa.find('.tituloTarefaView').html($('#tituloTarefa').val());
-        $novaTarefa.find('.descricaoTarefaView').html($('#descricaoTarefa').val());
-        $novaTarefa.find('.horasTarefaView').html($('#horasTarefa').val());
+    $('#modalTarefa').on('show.bs.modal', function(ev){
+        $body.on('click', '#salvarFormulario', function(){
+            $novaTarefa = $('.tarefaView').clone();
+            $novaTarefa.find('.tituloTarefaView').html($('#tituloTarefa').val());
+            $novaTarefa.find('.descricaoTarefaView').html($('#descricaoTarefa').val());
+            $novaTarefa.find('.horasTarefaView').html($('#horasTarefa').val());
 
-        $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', $('.tarefaAgendada').length+1).draggable();
+            $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', $('.tarefaAgendada').length+1).draggable();
 
-        $('td.Tarefa').append($novaTarefa);
+            $('td.to_do').append($novaTarefa);
+        });
+
     });
-
-    $('#calendar').fullCalendar({
-        defaultView: 'Month',
-        events: [
-            // events go here
-        ],
-        resources: [
-            // resources go here
-        ]
-        // other options go here...
-    });
+    //$('#calendar').fullCalendar({
+    //    defaultView: 'Month',
+    //    events: [
+    //        // events go here
+    //    ],
+    //    resources: [
+    //        // resources go here
+    //    ]
+    //    // other options go here...
+    //});
 
     //$('.tarefaAgendada').
 });

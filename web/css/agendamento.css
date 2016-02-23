@@ -2,3 +2,37 @@
     border: solid 1px gray;
     background-color: yellow;
 }
+
+td.to_do{
+    width: 400px;
+}
+
+div.tarefaAgendada{
+    width: 180px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    border-color: #335984;
+    background-color: #D2D2D2
+}
+
+.tituloTarefaView {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.descricaoTarefaView {
+    padding: 5px;
+}
+
+.horasTarefaView {
+    font-size: 11px;
+    font-weight: bold;
+    color: #007fff;
+}
+
+.totalHorasTarefa{
+    float: right;
+    padding: 5px;
+}

@@ -1,21 +1,31 @@
 {% extends 'layout.html.twig' %}
 
-{% block sub_title 'Kanban' %}
+{% block sub_title 'Backlog' %}
+
+{% block javascript %}
+    <script src="../js/agendamento.js" type="application/javascript"></script>
+{% endblock javascript %}
+{% block stylesheet %}
+    <link rel="stylesheet" type="text/css" href="../css/agendamento.css">
+{% endblock stylesheet %}
 
 {% block body %}
     <table class="table table-bordered">
         <thead>
         <tr>
-            <?php foreach($arrayCabecalho as $cabecalho):?>
-            <th><?php echo $cabecalho ?><span class="glyphicon glyphicon-plus" id="<?php echo $cabecalho ?>"></span></th>
-            <?php endforeach;?>
+            <th>To do
+                <span class="glyphicon glyphicon-plus" style="padding:5px;" id="to_do" data-toggle="modal" data-target="#modalTarefa"></span>
+                <span class="totalHorasTarefa">00h</span>
+            </th>
+            <th>In Progress</th>
+            <th>Done</th>
         </tr>
         </thead>
         <tbody class="table-bordered">
         <tr style="height: 100vh">
-            <?php foreach($arrayCabecalho as $cabecalho):?>
-            <td class="<?php echo $cabecalho ?>"></td>
-            <?php endforeach;?>
+            <td class="to_do"></td>
+            <td class="in_progress"></td>
+            <td class="done"></td>
         </tr>
         </tbody>
         <tfoot>

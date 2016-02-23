@@ -21,12 +21,12 @@ $app->get( '/', function() use ($app) {
 //    ));
 //});
 
-$app->get("/kanban", function() use ($response, $app){
-    return $app['twig']->render('kanban/kanban.html.twig');
+$app->get("/backlog", function() use ($response, $app){
+    return $app['twig']->render('backlog/backlog.html.twig', array('backlog'=>true, 'timeline'=>false));
 });
 
-$app->get('/dashboard', function () use ($app) {
-    return 'dashboard ';
+$app->get('/timeline', function () use ($app) {
+    return $app['twig']->render('timeline/timeline.html.twig', array('timeline'=>true, 'backlog'=>false));
 });
 
 $app->run();
