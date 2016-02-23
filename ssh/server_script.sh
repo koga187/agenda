@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOCUMENT_ROOT="/var/www/html/agenda/";
+DOCUMENT_ROOT="/var/www/html/agenda/web/";
 
 sudo apt-get update;
 echo "############ Instalando apache ############";
@@ -28,6 +28,14 @@ echo "
         AllowOverride All
         Order allow,deny
         Allow from all
+        <IfModule mod_rewrite.c>
+            Options -MultiViews
+
+            RewriteEngine On
+            #RewriteBase /path/to/app
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteRule ^ index.php [QSA,L]
+        </IfModule>
     </Directory>
 </VirtualHost>
 " > /etc/apache2/sites-available/agenda.conf;
@@ -41,18 +49,18 @@ a2ensite agenda;
 echo "############ Reiniciando servidor Apache ############"
 service apache2 restart;
 echo "############ Entra no diretório do projeto ############"
-cd DOCUMENT_ROOT;
+cd $DOCUMENT_ROOT;
 echo "############ Baixa o composer utilizando o Curl ############"
-curl -Ss https://getcomposer.org/installer | php;
-sudo mv composer.phar /usr/bin/composer;
+#curl -Ss https://getcomposer.org/installer | php;
+#sudo mv composer.phar /usr/bin/composer;
 echo "############ Executa o composer do projeto ############"
-composer install --no-progress;
+#composer install --no-progress;
 echo "############ Instalando Mysql-Server ############"
-export DEBIAN_FRONTEND=noninteractive;
-sudo -E apt-get -q -y install mysql-server;
-sudo service mysql restart;
+#export DEBIAN_FRONTEND=noninteractive;
+#sudo -E apt-get -q -y install mysql-server;
+#sudo service mysql restart;
 echo "############ Trocando a senha do Mysql ############"
-sudo mysqladmin -uroot password root
+#sudo mysqladmin -uroot password root
 
 
 
