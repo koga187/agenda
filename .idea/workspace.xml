@@ -2,764 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410efdef-9707-4277-b8ab-fe992a4b6ab8" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/agendamento.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/dictionaries/koga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/css/agendamento.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/docs/diagram/modelo_schedule.mwb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/docs/script/agendamento.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/agendamento.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/images/ui-icons_444444_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/images/ui-icons_555555_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/images/ui-icons_777620_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/images/ui-icons_777777_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/images/ui-icons_cc0000_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery-ui/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-NlzCqz/agendamento/ssh/server_script.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/agendamento.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/dictionaries/koga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/css/agendamento.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/docs/diagram/modelo_schedule.mwb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/docs/script/agendamento.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/agendamento.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/images/ui-icons_444444_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/images/ui-icons_555555_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/images/ui-icons_777620_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/images/ui-icons_777777_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/images/ui-icons_cc0000_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery-ui/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RDkBw7/agendamento/ssh/server_script.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/agendamento.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/dictionaries/koga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/css/agendamento.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/docs/diagram/modelo_schedule.mwb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/docs/script/agendamento.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/agendamento.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/images/ui-icons_444444_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/images/ui-icons_555555_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/images/ui-icons_777620_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/images/ui-icons_777777_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/images/ui-icons_cc0000_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery-ui/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/ssh/server_script.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.fr-RhsXVX/agendamento/index.php" afterPath="$PROJECT_DIR$/web/templates/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/banner.html" afterPath="$PROJECT_DIR$/web/templates/banner.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/agendamento.css" afterPath="$PROJECT_DIR$/web/css/agendamento.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/web/templates/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/agendamento.js" afterPath="$PROJECT_DIR$/web/js/agendamento.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/external/jquery/jquery.js" afterPath="$PROJECT_DIR$/web/js/jquery-ui/external/jquery/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/web/js/jquery-ui/images/ui-icons_444444_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/web/js/jquery-ui/images/ui-icons_555555_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/web/js/jquery-ui/images/ui-icons_777620_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/web/js/jquery-ui/images/ui-icons_777777_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/web/js/jquery-ui/images/ui-icons_cc0000_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/web/js/jquery-ui/images/ui-icons_ffffff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/index.html" afterPath="$PROJECT_DIR$/web/js/jquery-ui/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.css" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.js" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.min.css" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.min.js" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.structure.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.structure.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-ui/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/web/js/jquery-ui/jquery-ui.theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/CHANGELOG.txt" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/CHANGELOG.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/CONTRIBUTING.txt" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/CONTRIBUTING.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/LICENSE.txt" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/agenda-views.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/agenda-views.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/background-events.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/background-events.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/basic-views.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/basic-views.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/default.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/default.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/external-dragging.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/external-dragging.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/gcal.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/gcal.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/json.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/json.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/json/events.json" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/json/events.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/languages.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/languages.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/php/get-events.php" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/php/get-events.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/php/get-timezones.php" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/php/get-timezones.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/php/utils.php" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/php/utils.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/selectable.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/selectable.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/theme.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/theme.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/demos/timezones.html" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/demos/timezones.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.css" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/fullcalendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/fullcalendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.min.css" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/fullcalendar.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/fullcalendar.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/fullcalendar.print.css" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/fullcalendar.print.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/gcal.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/gcal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang-all.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang-all.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ar-ma.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ar-ma.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ar-sa.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ar-sa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ar-tn.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ar-tn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ar.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/bg.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ca.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/cs.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/da.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/de-at.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/de-at.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/de.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/el.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/en-au.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/en-ca.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/en-gb.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/en-ie.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/en-ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/en-nz.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/en-nz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/es.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/fa.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/fi.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/fr-ca.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/fr-ch.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/fr-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/fr.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/he.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/hi.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/hr.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/hu.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/id.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/is.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/it.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ja.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ko.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/lt.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/lv.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/nb.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/nl.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/pl.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/pt-br.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/pt.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ro.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/ru.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/sk.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/sl.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/sr-cyrl.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/sr-cyrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/sr.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/sv.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/th.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/tr.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/uk.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/vi.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/zh-cn.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lang/zh-tw.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lang/zh-tw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/animated-overlay.gif" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/animated-overlay.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-icons_2694e8_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-icons_2e83ff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_3d80b3_256x240.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-icons_3d80b3_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_72a7cf_256x240.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-icons_72a7cf_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/images/ui-icons_ffffff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/cupertino/jquery-ui.min.css" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/cupertino/jquery-ui.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/jquery-ui.custom.min.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/jquery-ui.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/jquery.min.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/fullcalendar/lib/moment.min.js" afterPath="$PROJECT_DIR$/web/libs/fullcalendar/lib/moment.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.editorconfig" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.gitignore" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.jscs.json" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.jscs.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.jshintrc" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.npmignore" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.spmignore" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.spmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/.travis.yml" afterPath="$PROJECT_DIR$/web/libs/moment-develop/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/CHANGELOG.md" afterPath="$PROJECT_DIR$/web/libs/moment-develop/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/web/libs/moment-develop/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/Gruntfile.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/LICENSE" afterPath="$PROJECT_DIR$/web/libs/moment-develop/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/Moment.js.nuspec" afterPath="$PROJECT_DIR$/web/libs/moment-develop/Moment.js.nuspec" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/README.md" afterPath="$PROJECT_DIR$/web/libs/moment-develop/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/benchmarks/clone.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/benchmarks/clone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/benchmarks/fromDate.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/benchmarks/fromDate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/benchmarks/fromDateUtc.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/benchmarks/fromDateUtc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/benchmarks/makeDuration.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/benchmarks/makeDuration.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/benchmarks/zeroFill.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/benchmarks/zeroFill.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/bower.json" afterPath="$PROJECT_DIR$/web/libs/moment-develop/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/component.json" afterPath="$PROJECT_DIR$/web/libs/moment-develop/component.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/composer.json" afterPath="$PROJECT_DIR$/web/libs/moment-develop/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/ender.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/ender.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/af.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ar-ma.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ar-ma.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ar-sa.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ar-sa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ar-tn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ar-tn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ar.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/az.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/be.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/be.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/bg.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/bn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/bn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/bo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/bo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/br.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/bs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/bs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/cs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/cv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/cv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/cy.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/da.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/de-at.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/de-at.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/de.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/dv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/dv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/el.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/en-au.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/en-ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/en-gb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/en-ie.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/en-ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/en-nz.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/en-nz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/eo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/eo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/es.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/et.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/eu.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fa.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fr-ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fr-ch.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fr-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/fy.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/fy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/gd.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/gd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/gl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/he.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/hi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/hr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/hu.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/hy-am.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/hy-am.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/id.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/is.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/it.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ja.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/jv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/jv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ka.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ka.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/kk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/kk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/km.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ko.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/lb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/lb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/lo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/lo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/lt.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/lv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/me.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/me.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/mk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ml.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/mr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/mr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ms-my.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ms-my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ms.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/my.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/nb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ne.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ne.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/nl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/nn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/nn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/pl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/pt-br.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/pt.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ro.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ru.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/se.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/se.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/si.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sq.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sr-cyrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/sw.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/sw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/ta.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/ta.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/te.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/te.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/th.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/tl-ph.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/tl-ph.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/tlh.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/tlh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/tr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/tzl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/tzl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/tzm-latn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/tzm-latn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/tzm.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/tzm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/uk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/uz.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/uz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/vi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/zh-cn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/locale/zh-tw.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/locale/zh-tw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/meteor/README.md" afterPath="$PROJECT_DIR$/web/libs/moment-develop/meteor/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/meteor/export.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/meteor/export.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/meteor/package.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/meteor/package.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/meteor/test.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/meteor/test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/min/locales.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/min/locales.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/min/locales.min.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/min/locales.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/min/moment-with-locales.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/min/moment-with-locales.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/min/moment-with-locales.min.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/min/moment-with-locales.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/min/moment.min.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/min/moment.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/min/tests.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/min/tests.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/moment.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/moment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/package.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/package.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/package.json" afterPath="$PROJECT_DIR$/web/libs/moment-develop/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/scripts/npm_prepublish.sh" afterPath="$PROJECT_DIR$/web/libs/moment-develop/scripts/npm_prepublish.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/check-overflow.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/check-overflow.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/date-from-array.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/date-from-array.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-anything.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/from-anything.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-array.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/from-array.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-object.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/from-object.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-string-and-array.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/from-string-and-array.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-string-and-format.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/from-string-and-format.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/from-string.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/from-string.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/local.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/local.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/parsing-flags.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/parsing-flags.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/utc.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/utc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/create/valid.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/create/valid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/abs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/abs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/add-subtract.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/add-subtract.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/as.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/as.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/bubble.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/bubble.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/constructor.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/constructor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/create.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/create.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/duration.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/duration.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/get.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/get.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/humanize.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/humanize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/iso-string.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/iso-string.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/duration/prototype.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/duration/prototype.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/format/format.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/format/format.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/calendar.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/constructor.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/constructor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/en.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/formats.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/formats.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/invalid.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/invalid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/lists.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/lists.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/locale.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/locale.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/locales.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/locales.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/ordinal.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/ordinal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/pre-post-format.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/pre-post-format.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/prototype.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/prototype.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/relative.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/relative.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/locale/set.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/locale/set.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/add-subtract.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/add-subtract.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/calendar.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/clone.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/clone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/compare.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/compare.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/constructor.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/constructor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/creation-data.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/creation-data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/diff.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/diff.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/format.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/format.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/from.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/from.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/get-set.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/get-set.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/locale.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/locale.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/min-max.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/min-max.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/moment.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/moment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/now.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/now.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/prototype.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/prototype.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/start-end-of.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/start-end-of.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/to-type.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/to-type.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/to.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/to.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/moment/valid.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/moment/valid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/parse/regex.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/parse/regex.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/parse/token.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/parse/token.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/aliases.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/aliases.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/constants.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/constants.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/day-of-month.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/day-of-month.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/day-of-week.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/day-of-week.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/day-of-year.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/day-of-year.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/hour.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/hour.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/millisecond.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/millisecond.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/minute.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/minute.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/month.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/month.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/offset.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/offset.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/quarter.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/quarter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/second.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/second.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/timestamp.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/timestamp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/timezone.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/timezone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/units.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/units.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/week-calendar-utils.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/week-calendar-utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/week-year.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/week-year.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/week.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/week.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/units/year.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/units/year.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/abs-ceil.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/abs-ceil.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/abs-floor.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/abs-floor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/compare-arrays.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/compare-arrays.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/defaults.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/defaults.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/deprecate.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/deprecate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/extend.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/extend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/has-own-prop.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/has-own-prop.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/hooks.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/hooks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-array.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/is-array.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-date.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/is-date.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-function.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/is-function.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/is-undefined.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/is-undefined.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/map.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/to-int.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/to-int.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/lib/utils/zero-fill.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/lib/utils/zero-fill.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/af.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar-ma.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ar-ma.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar-sa.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ar-sa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar-tn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ar-tn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ar.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/az.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/be.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/be.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/bg.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/bn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/bn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/bo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/bo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/br.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/bs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/bs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/cs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/cv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/cv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/cy.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/da.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/de-at.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/de-at.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/de.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/dv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/dv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/el.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-au.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-gb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-ie.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/en-ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/en-nz.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/en-nz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/eo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/eo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/es.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/et.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/eu.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fa.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fr-ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fr-ch.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fr-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/fy.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/fy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/gd.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/gd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/gl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/he.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/hi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/hr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/hu.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/hy-am.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/hy-am.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/id.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/is.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/it.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ja.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/jv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/jv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ka.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ka.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/kk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/kk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/km.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ko.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/lb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/lb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/lo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/lo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/lt.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/lv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/me.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/me.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/mk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ml.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/mr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/mr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ms-my.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ms-my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ms.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/my.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/nb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ne.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ne.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/nl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/nn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/nn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/pl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/pt-br.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/pt.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ro.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ru.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/se.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/se.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/si.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sq.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sr-cyrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/sw.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/sw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/ta.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/ta.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/te.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/te.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/th.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/tl-ph.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/tl-ph.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/tlh.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/tlh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/tr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/tzl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/tzl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/tzm-latn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/tzm-latn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/tzm.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/tzm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/uk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/uz.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/uz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/vi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/zh-cn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/locale/zh-tw.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/locale/zh-tw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/moment.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/moment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/helpers/each.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/helpers/each.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/af.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar-ma.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ar-ma.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar-sa.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ar-sa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar-tn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ar-tn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ar.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/az.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/az.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/be.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/be.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bg.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/bn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/bo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/br.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/bs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/bs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/cs.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/cv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/cv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/cy.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/da.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/de-at.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/de-at.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/de.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/dv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/dv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/el.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-au.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-gb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-ie.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/en-ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en-nz.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/en-nz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/en.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/eo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/eo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/es.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/et.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/eu.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fa.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fr-ca.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fr-ch.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fr-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/fy.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/fy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/gd.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/gd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/gl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/he.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hu.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/hy-am.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/hy-am.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/id.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/is.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/it.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ja.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/jv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/jv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ka.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ka.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/kk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/kk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/km.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ko.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/lb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lo.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/lo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lt.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/lv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/me.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/me.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/mk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/mk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ml.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/mr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/mr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ms-my.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ms-my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ms.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/my.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/nb.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/nb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ne.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ne.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/nl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/nn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/nn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/pl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/pt-br.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/pt.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ro.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ru.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/se.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/se.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/si.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sq.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sr-cyrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sv.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/sw.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/sw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/ta.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/ta.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/te.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/te.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/th.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tl-ph.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/tl-ph.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tlh.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/tlh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tr.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tzl.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/tzl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tzm-latn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/tzm-latn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/tzm.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/tzm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/uk.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/uz.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/uz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/vi.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/zh-cn.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/locale/zh-tw.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/locale/zh-tw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/add_subtract.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/add_subtract.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/calendar.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/create.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/create.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/creation-data.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/creation-data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/days_in_month.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/days_in_month.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/deprecate.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/deprecate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/diff.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/diff.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/duration.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/duration.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/duration_from_moments.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/duration_from_moments.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/format.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/format.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/from_to.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/from_to.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/getters_setters.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/getters_setters.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/instanceof.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/instanceof.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/invalid.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/invalid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_after.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_after.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_before.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_before.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_between.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_between.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_date.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_date.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_moment.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_moment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_same.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_same.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_same_or_after.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_same_or_after.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_same_or_before.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_same_or_before.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/is_valid.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/is_valid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/leapyear.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/leapyear.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/listers.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/listers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/locale.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/locale.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/min_max.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/min_max.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/mutable.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/mutable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/normalize_units.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/normalize_units.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/now.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/now.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/parsing_flags.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/parsing_flags.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/preparse_postformat.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/preparse_postformat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/quarter.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/quarter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/relative_time.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/relative_time.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/start_end_of.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/start_end_of.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/string_prototype.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/string_prototype.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/to_type.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/to_type.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/utc.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/utc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/utc_offset.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/utc_offset.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/week_year.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/week_year.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/weekday.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/weekday.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/weeks.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/weeks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/weeks_in_year.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/weeks_in_year.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/zone_switching.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/zone_switching.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/moment/zones.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/moment/zones.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/src/test/qunit.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/src/test/qunit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/bump_version.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/bump_version.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/check_sauce_creds.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/check_sauce_creds.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/component.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/embed_locales.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/embed_locales.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/history.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/history.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/nuget.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/nuget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/qtest.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/qtest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/size.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/size.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/transpile.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/transpile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/update_index.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/update_index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/tasks/zones.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/tasks/zones.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/templates/amd-named.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/templates/amd-named.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/templates/amd.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/templates/amd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/templates/default.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/templates/default.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/templates/globals.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/templates/globals.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/templates/locale-header.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/templates/locale-header.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/moment-develop/templates/test-header.js" afterPath="$PROJECT_DIR$/web/libs/moment-develop/templates/test-header.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/.gitignore" afterPath="$PROJECT_DIR$/web/libs/schedule-master/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/.travis.yml" afterPath="$PROJECT_DIR$/web/libs/schedule-master/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/LICENSE" afterPath="$PROJECT_DIR$/web/libs/schedule-master/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/Makefile" afterPath="$PROJECT_DIR$/web/libs/schedule-master/Makefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/Readme.md" afterPath="$PROJECT_DIR$/web/libs/schedule-master/Readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/benchmark/create-schedule-bench.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/benchmark/create-schedule-bench.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/benchmark/dependency-graph-bench.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/benchmark/dependency-graph-bench.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/bower.json" afterPath="$PROJECT_DIR$/web/libs/schedule-master/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/coverage.html" afterPath="$PROJECT_DIR$/web/libs/schedule-master/coverage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/example/browser.html" afterPath="$PROJECT_DIR$/web/libs/schedule-master/example/browser.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/example/server.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/example/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/index-browserify.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/index-browserify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/index.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/package.json" afterPath="$PROJECT_DIR$/web/libs/schedule-master/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/schedule.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/schedule.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/schedule.min.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/schedule.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/bower.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/bower.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/compat/index.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/compat/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/compat/indexof.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/compat/indexof.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/compat/isarray.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/compat/isarray.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/core/create.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/core/create.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/core/dependency-graph.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/core/dependency-graph.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/core/index.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/core/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/core/resource-manager.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/core/resource-manager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/core/resources.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/core/resources.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/core/tasks.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/core/tasks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/date/date.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/date/date.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/date/index.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/date/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/date/timezone.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/date/timezone.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/end.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/end.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/package.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/package.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/schedule.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/schedule.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/sort/index.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/sort/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/sort/sort.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/sort/sort.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/sort/tasks.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/sort/tasks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/start.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/start.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/util/functor.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/util/functor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/util/index.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/util/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/src/util/memoized-range-fn.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/src/util/memoized-range-fn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/core/dependency-graph-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/core/dependency-graph-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/core/resource-manager-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/core/resource-manager-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/core/resources-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/core/resources-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/core/schedule-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/core/schedule-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/core/tasks-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/core/tasks-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/example/project-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/example/project-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/schedule-master/test/example/reservation-test.js" afterPath="$PROJECT_DIR$/web/libs/schedule-master/test/example/reservation-test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projeto.php" afterPath="$PROJECT_DIR$/web/templates/projeto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/koga.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/koga.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/diagram/modelo_schedule.mwb.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Common/Entity/Project.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Common/Entity/Status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Common/Entity/StatusTarefa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Common/Entity/Tarefa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/views/gallery.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/views/kanban/kanban.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/views/layout.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/views/upload_form.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/templates/banner.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/header.html" afterPath="$PROJECT_DIR$/web/views/dashboard/dashboard.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/index.php" afterPath="$PROJECT_DIR$/web/views/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/templates/projeto.php" afterPath="$PROJECT_DIR$/web/views/projeto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/diagram/modelo_schedule.mwb" afterPath="$PROJECT_DIR$/docs/diagram/modelo_schedule.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssh/server_script.sh" afterPath="$PROJECT_DIR$/ssh/server_script.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.php" afterPath="$PROJECT_DIR$/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
     </list>
     <ignored path="agendamento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -782,37 +42,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.37037">
+              <caret line="90" column="7" selection-start-line="15" selection-start-column="0" selection-end-line="90" selection-end-column="7" />
+              <folding>
+                <marker date="1456183720181" expanded="true" signature="91:111" placeholder="SELECT * FRO... status" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/dashboard/dashboard.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3333334">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_form.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/upload_form.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0">
+              <caret line="12" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kanban.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/views/kanban/kanban.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73706895">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Include.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Include.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3333335">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.333333">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state vertical-scroll-proportion="-18.0">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="gallery.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/gallery.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2195122">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -835,15 +151,26 @@
         <option value="$PROJECT_DIR$/projeto.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/storyboard.php" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/web/storyboard.php" />
         <option value="$PROJECT_DIR$/ssh/server_script.sh" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Common/Entity/Project.php" />
+        <option value="$PROJECT_DIR$/src/Common/Entity/Status.php" />
+        <option value="$PROJECT_DIR$/src/Common/Entity/Tarefa.php" />
+        <option value="$PROJECT_DIR$/src/Common/Entity/StatusTarefa.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/web/views/hello.twig" />
+        <option value="$PROJECT_DIR$/web/views/upload_form.html.twig" />
+        <option value="$PROJECT_DIR$/web/views/gallery.html.twig" />
+        <option value="$PROJECT_DIR$/bootstrap.php" />
+        <option value="$PROJECT_DIR$/web/views/kanban.html.twig" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/web/views/kanban/kanban.html.twig" />
+        <option value="$PROJECT_DIR$/web/views/dashboard/dashboard.html.twig" />
       </list>
     </option>
   </component>
@@ -861,6 +188,28 @@
     <option name="y" value="1" />
     <option name="width" value="1922" />
     <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpIllegalPsrClassPathInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -934,7 +283,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agendamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agendamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agendamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agendamento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -952,14 +381,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/views/kanban" />
+      <recent name="$PROJECT_DIR$/src/Common" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/templates" />
-      <recent name="C:\Users\bruno.koga\Vagrant\agenda\libs" />
-      <recent name="C:\Users\bruno.koga\Vagrant\agenda\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -1029,13 +460,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1" width="1922" height="1080" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.49870467" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.49870467" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42562592" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41649693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8129602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2284041" sideWeight="0.4986842" order="2" side_tool="false" content_ui="tabs" />
@@ -1051,7 +483,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1011" y="220" width="345" height="113" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41678938" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1075,32 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-          <folding>
-            <marker date="1456183720181" expanded="true" signature="91:111" placeholder="SELECT * FRO... status" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/agendamento.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1109,15 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/projeto.php">
+    <entry file="file://$PROJECT_DIR$/web/views/projeto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
@@ -1159,7 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index.php">
+    <entry file="file://$PROJECT_DIR$/web/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
@@ -1177,23 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/projeto.php">
+    <entry file="file://$PROJECT_DIR$/web/views/projeto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1227,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index.php">
+    <entry file="file://$PROJECT_DIR$/web/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
@@ -1309,56 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/projeto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26293105">
-          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
-          <folding>
-            <marker date="1456183720181" expanded="true" signature="91:111" placeholder="SELECT * FRO... status" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09698276">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15078534">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssh/server_script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64083767">
@@ -1383,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -1405,10 +728,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Entity/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.703703">
+          <caret line="119" column="5" selection-start-line="12" selection-start-column="1" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Entity/Status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Entity/Tarefa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.703703">
+          <caret line="191" column="5" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/Entity/StatusTarefa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/projeto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3703704">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <marker date="1456183720177" expanded="true" signature="98:119" placeholder="SELECT * FRO... projeto" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2195122">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48922414">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/bin/skeleton/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Provider/TwigServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.777778">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#265#287#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/gallery.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/upload_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.0">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.37037">
+          <caret line="90" column="7" selection-start-line="15" selection-start-column="0" selection-end-line="90" selection-end-column="7" />
+          <folding>
+            <marker date="1456183720181" expanded="true" signature="91:111" placeholder="SELECT * FRO... status" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/dashboard/dashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/kanban/kanban.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73706895">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding />
         </state>
       </provider>
