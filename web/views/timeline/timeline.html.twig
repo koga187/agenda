@@ -1,6 +1,17 @@
 {% extends 'layout.html.twig' %}
 
 {% block sub_title 'Time Line' %}
+{% block javascript %}
+    <script src="../js/timeline.js" type="application/javascript"></script>
+    <script src="../libs/moment-develop/moment.js" type="application/javascript"></script>
+    <script src="../libs/fullcalendar/fullcalendar.js" type="application/javascript"></script>
+    <script src="../libs/scheduler/scheduler.min.js" type="application/javascript"></script>
+{% endblock javascript %}
+{% block stylesheet %}
+    <link rel="stylesheet" type="text/css" href="../libs/fullcalendar/fullcalendar.css">
+    <link rel="stylesheet" type="text/css" href="../css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="../libs/scheduler/scheduler.min.css">
+{% endblock stylesheet %}
 {% block body %}
-
+    <div id='calendar'></div>
 {% endblock body %}

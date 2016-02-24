@@ -5,14 +5,14 @@ require_once __DIR__.'/../bootstrap.php';
 $response = new \Symfony\Component\HttpFoundation\Response();
 
 $app->get( '/', function() use ($app) {
-    return $app['twig']->render('layout.html.twig');
+    return $app['twig']->render('layout.html.twig', array('backlog'=>false, 'timeline'=>false));
 });
 
 //$app->get('/view', function() use ( $app ) {
 //    $image_glob = glob($app['upload_folder'] . '/img*');
 //
 //    $images = array_map(
-//        function($val) { return basename( $val ); },
+//        function($val) { return basename( $val ); },,
 //        $image_glob
 //    );
 //

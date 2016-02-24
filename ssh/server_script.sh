@@ -51,18 +51,20 @@ service apache2 restart;
 echo "############ Entra no diretório do projeto ############"
 cd $DOCUMENT_ROOT;
 echo "############ Baixa o composer utilizando o Curl ############"
-#curl -Ss https://getcomposer.org/installer | php;
-#sudo mv composer.phar /usr/bin/composer;
+curl -Ss https://getcomposer.org/installer | php;
+sudo mv composer.phar /usr/bin/composer;
 echo "############ Executa o composer do projeto ############"
-#composer install --no-progress;
+composer install --no-progress;
 echo "############ Instalando Mysql-Server ############"
-#export DEBIAN_FRONTEND=noninteractive;
-#sudo -E apt-get -q -y install mysql-server;
-#sudo service mysql restart;
+export DEBIAN_FRONTEND=noninteractive;
+sudo -E apt-get -q -y install mysql-server;
+sudo service mysql restart;
 echo "############ Trocando a senha do Mysql ############"
-#sudo mysqladmin -uroot password root
+sudo mysqladmin -uroot password root;
+echo "############ DUMP Mysql ############"
+mysql -uroot -proot < /var/www/html/agenda/docs/script/agendamento.sql;
+mysql -uroot -proot < /var/www/html/agenda/docs/script/insert.sql;
 
 
 
 echo "** [AGENDA] http://agenda.local:8888 **";
-''
