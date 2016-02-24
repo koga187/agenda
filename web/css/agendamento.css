@@ -1,5 +1,4 @@
 .tarefaAgendada{
-    border: solid 1px gray;
     background-color: yellow;
 }
 
@@ -9,16 +8,18 @@ td.to_do{
 
 div.tarefaAgendada{
     width: 180px;
-    height: 150px;
+    height: 95px;
     float: left;
-    border-radius: 10px;
-    border-color: #335984;
-    background-color: #D2D2D2
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    border-left: solid 15px #95b3d7;
+    background-color: #dce6f4
 }
 
 .tituloTarefaView {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-size: 30px;
 }
 
@@ -35,4 +36,10 @@ div.tarefaAgendada{
 .totalHorasTarefa{
     float: right;
     padding: 5px;
+}
+
+.nomeCadastro {
+    font-size: 12px;
+    float: right;
+    padding-right: 15px;
 }
