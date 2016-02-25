@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $('#calendar').fullCalendar({
         now: '2016-02-23',
         editable: false,

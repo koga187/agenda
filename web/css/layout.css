@@ -22,3 +22,16 @@
     float: right;
     padding-right: 10px;
 }
+
+#addProjeto{
+    float: right;
+}
+
+.addProjeto{
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+#menuPrincipal{
+    padding-top: 40px;
+}

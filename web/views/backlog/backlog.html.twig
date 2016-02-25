@@ -3,14 +3,14 @@
 {% block sub_title 'Backlog' %}
 
 {% block javascript %}
-    <script src="../js/agendamento.js" type="application/javascript"></script>
+    <script src="../js/backlog.js" type="application/javascript"></script>
 {% endblock javascript %}
 {% block stylesheet %}
-    <link rel="stylesheet" type="text/css" href="../css/agendamento.css">
+    <link rel="stylesheet" type="text/css" href="../css/backlog.css">
 {% endblock stylesheet %}
 
 {% block body %}
-    <table class="table table-bordered">
+    <table class="table table-bordered" id="backlogTable">
         <thead>
         <tr>
             <th>To do
@@ -22,11 +22,6 @@
         </tr>
         </thead>
         <tbody class="table-bordered">
-        <tr style="height: 100vh">
-            <td class="to_do"></td>
-            <td class="in_progress"></td>
-            <td class="done"></td>
-        </tr>
         </tbody>
         <tfoot>
         </tfoot>
@@ -36,7 +31,6 @@
         <h4 class="tituloTarefaView"></h4>
         <span class="descricaoTarefaView"></span>
         <span class="horasTarefaView"></span>
-        <label class="nomeCadastro">Bruno Koga</label>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="modalTarefa" role="dialog">

@@ -3,13 +3,15 @@
 <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- style agenda -->
-    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../js/jquery-ui/jquery-ui.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="../js/jquery.min.js" type="application/javascript"></script>
     <script src="../js/jquery-ui/jquery-ui.js" type="application/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="../js/jquery-ui/jquery-ui.css">
+    <!-- layout -->
+    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <script src="../js/layout.js" type="application/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     {% block javascript %}{% endblock javascript %}
     {% block stylesheet %}{% endblock stylesheet %}
@@ -18,20 +20,43 @@
 <div id="banner">
 |   <div>
         <span class="logout">Logout</span>
-        <ul class="nav nav-tabs">
+        <div class="addProjeto"><input type="button" class="btn btn-default" id="addProjeto" data-toggle="modal" data-target="#modalProjeto" value="Add projeto"></div>
+        <ul class="nav nav-tabs menuPrincipal">
             <li><a class="aba {% if timeline %} active {% endif %}" href="/timeline">Timeline</a></li>
             <li><a class="aba {% if backlog %} active {% endif %}" href="/backlog">Backlog</a></li>
         </ul>
-        {#<h2>#}
-            {#<a href="/backlog">backlog</a>#}
-        {#</h2>#}
-        {#<p>#}
-            {#Sistema de acompanhamento de backlog#}
-        {#</p>#}
     </div>
 </div>
 {% block body %}
     bem vindo a Agenda!
 {% endblock %}
+<!-- Modal -->
+<div class="modal fade" id="modalProjeto" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cadastro Projeto</h4>
+            </div>
+            <div class="modal-body">
+                <div id="formProjeto" >
+                    <label for="tituloProjeto">Titulo</label>
+                    <input type="text" name="tituloProjeto" id="tituloProjeto" class="form-control"/>
+                    <label for="descricaoProjeto">Descrição</label>
+                    <input type="text" name="descricaoProjeto" id="descricaoProjeto" class="form-control"/>
+                    <label for="dataInicio">Data Inicio</label>
+                    <input type="date" name="dataInicio" id="dataInicio" class="form-control">
+                    <label for="dataFim">Data Fim</label>
+                    <input type="date" name="dataFim" id="dataFim" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer form-group">
+                <input type="button" class="btn btn-default"  value="salvar" id="salvarProjeto">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

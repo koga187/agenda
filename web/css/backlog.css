@@ -17,6 +17,11 @@ div.tarefaAgendada{
     background-color: #dce6f4
 }
 
+.backLogLine{
+    height: 150px;
+    max-height: 400px;
+}
+
 .tituloTarefaView {
     text-align: center;
     color: #000000;
@@ -42,4 +47,12 @@ div.tarefaAgendada{
     font-size: 12px;
     float: right;
     padding-right: 15px;
+}
+
+.linhaBacklogProjeto{
+    background-color: lightgray;
+}
+
+.tituloBacklogProjeto{
+    margin: 0 0 0 0;
 }
