@@ -49,7 +49,7 @@ a2ensite agenda;
 echo "############ Reiniciando servidor Apache ############"
 service apache2 restart;
 echo "############ Entra no diretório do projeto ############"
-cd $DOCUMENT_ROOT;
+cd ${DOCUMENT_ROOT};
 echo "############ Baixa o composer utilizando o Curl ############"
 curl -Ss https://getcomposer.org/installer | php;
 sudo mv composer.phar /usr/bin/composer;
@@ -61,9 +61,11 @@ sudo -E apt-get -q -y install mysql-server;
 sudo service mysql restart;
 echo "############ Trocando a senha do Mysql ############"
 sudo mysqladmin -uroot password root;
-echo "############ DUMP Mysql ############"
-mysql -uroot -proot < /var/www/html/agenda/docs/script/agendamento.sql;
-mysql -uroot -proot < /var/www/html/agenda/docs/script/insert.sql;
+echo "############ Criando banco agendamento############"
+mysql -uroot -proot -e 'CREATE DATABASE agendamento CHARSET utf8'
+echo "############ Criando tabelas com Doctrine############"
+cd ${DOCUMENT_ROOT}/bin;
+php doctrine orm:schema-tool:create;
 
 
 
