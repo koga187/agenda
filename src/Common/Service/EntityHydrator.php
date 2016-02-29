@@ -26,7 +26,8 @@ abstract Class EntityHydrator
             //Read of the specified annotations in the Property Class, which is just $name in our example
             $annotation = $reader->getPropertyAnnotation($property, $entityClass);
             //The contents of the (name) annotation will be used as a key to the data array received from the data source!
-            $object->$setter($data[Inflector::tableize($annotation->name)]);
+            $value = (isset($data[$property->getName()])) ? $data[$property->getName()] : NULL;
+            $object->$setter($value);
         }
 
         return $object;

@@ -1,35 +1,56 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: koga
  * Date: 22/02/16
- * Time: 21:41
+ * Time: 21:35
  */
 
 namespace Common\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
 
-class Tarefa
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="projetos")
+ */
+class Projetos
 {
+    /**
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     * @ORM\generatedValue
+     */
     private $id;
-
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
     private $nome;
-
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
     private $descricao;
-
-    private $horas;
-
+    /**
+     * @ORM\Column(type="date", name="data_inicio")
+     */
     private $dataInicio;
-
+    /**
+     * @ORM\Column(type="date", name="data_fim")
+     */
+    private $dataFim;
+    /**
+     * @ORM\Column(type="datetime", name="data_in")
+     */
     private $dataIn;
-
-    private $dataOut;
-
+    /**
+     * @ORM\Column(type="datetime", name="data_delete", nullable=true)
+     */
     private $dataDelete;
-
+    /**
+     * @ORM\Column(type="binary", length=255, nullable=true)
+     */
     private $deleted;
-
-    private $projetoid;
 
     /**
      * @return mixed
@@ -82,22 +103,6 @@ class Tarefa
     /**
      * @return mixed
      */
-    public function getHoras()
-    {
-        return $this->horas;
-    }
-
-    /**
-     * @param mixed $horas
-     */
-    public function setHoras($horas)
-    {
-        $this->horas = $horas;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getDataInicio()
     {
         return $this->dataInicio;
@@ -109,6 +114,22 @@ class Tarefa
     public function setDataInicio($dataInicio)
     {
         $this->dataInicio = $dataInicio;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDataFim()
+    {
+        return $this->dataFim;
+    }
+
+    /**
+     * @param mixed $dataFim
+     */
+    public function setDataFim($dataFim)
+    {
+        $this->dataFim = $dataFim;
     }
 
     /**
@@ -130,29 +151,13 @@ class Tarefa
     /**
      * @return mixed
      */
-    public function getDataOut()
-    {
-        return $this->dataOut;
-    }
-
-    /**
-     * @param mixed $dataOut
-     */
-    public function setDataOut($dataOut)
-    {
-        $this->dataOut = $dataOut;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getDataDelete()
     {
         return $this->dataDelete;
     }
 
     /**
-     * @param mixed $dataDelete
+     * @param mixed dataDelete
      */
     public function setDataDelete($dataDelete)
     {
@@ -173,21 +178,5 @@ class Tarefa
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getProjetoid()
-    {
-        return $this->projetoid;
-    }
-
-    /**
-     * @param mixed $projetoid
-     */
-    public function setProjetoid($projetoid)
-    {
-        $this->projetoid = $projetoid;
     }
 }

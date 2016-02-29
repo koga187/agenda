@@ -1,10 +1,9 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: koga
  * Date: 22/02/16
- * Time: 21:40
+ * Time: 21:41
  */
 
 namespace Common\Entity;
@@ -13,9 +12,9 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="status")
+ * @ORM\Table(name="tarefas")
  */
-class Status
+class Tarefas
 {
     /**
      * @ORM\Id
@@ -27,10 +26,19 @@ class Status
      * @ORM\Column(type="string", length=255)
      */
     private $nome;
+
     /**
      * @ORM\Column(type="string", length=255)
      */
     private $descricao;
+    /**
+     * @ORM\Column(type="smallint")
+     */
+    private $horas;
+    /**
+     * @ORM\Column(type="datetime", name="data_inicio")
+     */
+    private $dataInicio;
     /**
      * @ORM\Column(type="datetime", name="data_in")
      */
@@ -43,6 +51,11 @@ class Status
      * @ORM\Column(type="binary", nullable=true)
      */
     private $deleted;
+    /**
+     * @ORM\ManyToOne(targetEntity="Projetos")
+     * @ORM\JoinColumn(name="projeto_id", referencedColumnName="id")
+     */
+    private $projetoid;
 
     /**
      * @return mixed
@@ -95,6 +108,38 @@ class Status
     /**
      * @return mixed
      */
+    public function getHoras()
+    {
+        return $this->horas;
+    }
+
+    /**
+     * @param mixed $horas
+     */
+    public function setHoras($horas)
+    {
+        $this->horas = $horas;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDataInicio()
+    {
+        return $this->dataInicio;
+    }
+
+    /**
+     * @param mixed $dataInicio
+     */
+    public function setDataInicio($dataInicio)
+    {
+        $this->dataInicio = $dataInicio;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getDataIn()
     {
         return $this->dataIn;
@@ -117,7 +162,7 @@ class Status
     }
 
     /**
-     * @param $dataDelete
+     * @param mixed $dataDelete
      */
     public function setDataDelete($dataDelete)
     {
@@ -138,5 +183,21 @@ class Status
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getProjetoid()
+    {
+        return $this->projetoid;
+    }
+
+    /**
+     * @param mixed $projetoid
+     */
+    public function setProjetoid($projetoid)
+    {
+        $this->projetoid = $projetoid;
     }
 }
