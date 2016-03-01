@@ -22,12 +22,11 @@
     float: right;
     padding-right: 10px;
 }
-
-#addProjeto{
+#buttonOpenModalProjeto{
     float: right;
 }
 
-.addProjeto{
+.projeto{
     padding-top: 40px;
     padding-right: 10px;
 }

@@ -11,8 +11,8 @@
 	"autoload":{
 		"psr-4":{
 			"Common\\":"src/Common/",
-			"DashBoard\\":"src/DashBoard/",
-			"Kanban\\":"src/Kanban/"
+			"Backlog\\":"src/Backlog/",
+			"DashBoard\\":"src/DashBoard/"
 		}
 	}
 }

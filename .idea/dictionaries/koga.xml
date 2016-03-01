@@ -1,8 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="koga">
     <words>
+      <w>agendamento</w>
+      <w>dados</w>
+      <w>hydrator</w>
       <w>kanban</w>
+      <w>nullable</w>
       <w>silex</w>
+      <w>tarefas</w>
+      <w>timeline</w>
     </words>
   </dictionary>
 </component>

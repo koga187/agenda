@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 80, host: 8888
   config.vm.hostname = "agenda.local"
   config.vm.synced_folder '.', '/var/www/html/agenda'
-  config.vm.provision "shell", path: "ssh/server_script.sh"
+  config.vm.provision "shell", path: "sh/server_script.sh"
 
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--memory", "1024"]

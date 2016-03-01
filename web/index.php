@@ -10,9 +10,7 @@ $app->get( '/', function() use ($app) {
     return $app['twig']->render('layout.html.twig', array('backlog'=>false, 'timeline'=>false));
 });
 
-$app->get("/backlog", function() use ($app){
-    return $app['twig']->render('backlog/backlog.html.twig', array('backlog'=>true, 'timeline'=>false));
-});
+$app->mount("/backlog", new Backlog\Controller\IndexController());
 
 $app->get('/timeline', function () use ($app) {
     return $app['twig']->render('timeline/timeline.html.twig', array('timeline'=>true, 'backlog'=>false));
@@ -27,9 +25,21 @@ $app->post('/projetos/', function (Request $request) use ($response, $app, $em) 
         'dataIn'  => new DateTime('now')
     ];
 
-    $projeto = new \Common\Service\ProjetosService($em);
-    if ($projetosEntity = $projeto->create('Common\Entity\Projetos', $dados)) {
+    $projetoService = new \Common\Service\ProjetosService($em);
+    if ($projetosEntity = $projetoService->create('Common\Entity\Projetos', $dados)) {
         $response->setContent(json_encode($dados))
+            ->setStatusCode('200');
+    }
+
+    return $response;
+});
+
+$app->get('/projetos/', function () use ($response, $app, $em) {
+
+    $projetoService = new \Common\Service\ProjetosService($em);
+    if ($listaProjetos = $projetoService->read('Common\Entity\Projetos')) {
+
+        $response->setContent(json_encode($listaProjetos))
             ->setStatusCode('200');
     }
 
