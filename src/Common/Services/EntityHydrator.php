@@ -6,7 +6,7 @@
  * Time: 16:33
  */
 
-namespace Common\Service;
+namespace Common\Services;
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use ReflectionObject;

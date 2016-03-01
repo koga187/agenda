@@ -5,8 +5,9 @@
  * Date: 28/02/16
  * Time: 16:17
  */
-namespace Common\Service;
+namespace Common\Services;
 
+use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
 
 abstract class AbstractCRUD

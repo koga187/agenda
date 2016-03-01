@@ -12,7 +12,8 @@
 		"psr-4":{
 			"Common\\":"src/Common/",
 			"Backlog\\":"src/Backlog/",
-			"DashBoard\\":"src/DashBoard/"
+			"Timeline\\":"src/Timeline/",
+			"Projeto\\":"src/Projeto/"
 		}
 	}
 }
