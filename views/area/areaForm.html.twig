@@ -1,0 +1,43 @@
+{% block javascript %}
+<script src="../js/areaForm.js" type="application/javascript"></script>
+{% endblock %}
+<div class="modal fade" id="areaForm" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cadastro de Area</h4>
+            </div>
+            <div class="modal-body">
+                <div id="formProjeto" >
+                    <label for="nomeArea">Nome:</label>
+                    <input type="text" name="nomeArea" id="nomeArea" class="form-control"/>
+                    <label for="descricaoArea">Descrição</label>
+                    <input type="text" name="descricaoArea" id="descricaoArea" class="form-control"/>
+                </div>
+                <div class="grid" style=" {% if codigoArea %}display:none;{% endif %}">
+                    <table class="table bootstrap-table">
+                        <thead class="title">
+                        <tr><th>Nome</th><th>Email</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input class="form-control" type="text" name="nomeEmail" id="nomeEmail">
+                                </td>
+                                <td>
+                                    <input class="form-control" type="text" name="email" id="email">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer form-group">
+                <input type="button" class="btn btn-default"  value="salvar" id="salvarArea">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

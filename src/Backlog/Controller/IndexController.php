@@ -8,22 +8,13 @@
 
 namespace Backlog\Controller;
 
-
+use Common\Controller\AbstractController;
 use Silex\Application;
-use Silex\ControllerProviderInterface;
 
-class IndexController implements ControllerProviderInterface
+class IndexController
 {
-    public function connect(Application $app)
-    {
-        $controllerFactory = $app['controllers_factory'];
-        $controllerFactory->get('/', 'Backlog\Controller\IndexController::indexAction');
-
-        return $controllerFactory;
-    }
-
     public function indexAction(Application $app)
     {
-        return $app['twig']->render('backlog/backlog.html.twig', array('backlog'=>true, 'timeline'=>false));
+        return $app['twig']->render('backlog/backlog.html.twig', array('backlog'=>true, 'timeline'=>false, 'codigoArea' => true));
     }
 }

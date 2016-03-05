@@ -1,18 +1,16 @@
 $(document).ready(function(){
     /**
-     * Cria projeto
+     * Cria area
      */
     body.on('click', '#salvarProjeto', function() {
 
         $.post({
-            url: host + '/area/',
+            url: host + '/areas/',
             type: 'POST',
             dataType: 'JSON',
             data: {
-                'tituloProjeto': $('#tituloProjeto').val(),
-                'descricaoProjeto': $('#descricaoProjeto').val(),
-                'dataInicio': $('#dataInicio').val(),
-                'dataFim': $('#dataFim').val()
+                'nomeArea': $('#nomeArea').val(),
+                'descricaoArea': $('#descricaoArea').val()
             },
 
             beforeSend: function () {
@@ -25,7 +23,7 @@ $(document).ready(function(){
 
             success: function ($return, $jqXHR) {
                 if ($jqXHR == 'success') {
-                    alert('Projeto: ' + $return.nome + ' inserido com sucesso!');
+                    alert('Area: ' + $return.nome + ' inserido com sucesso!');
                 } else {
                     alert('Erro ao inserir!');
                 }

@@ -8,14 +8,17 @@
 
 namespace Common\Controller;
 
-
+use Doctrine\ORM\EntityManager;
 use Silex\Application;
-use Silex\ControllerProviderInterface;
 
-class AbstractController implements ControllerProviderInterface
+abstract class AbstractController
 {
-    public function connect(Application $app)
+    protected $em;
+    /**
+     * @param EntityManager $em
+     */
+    public function __construct(EntityManager $em)
     {
-        // TODO: Implement connect() method.
+        $this->em = $em;
     }
 }

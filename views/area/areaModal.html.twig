@@ -1,0 +1,30 @@
+{% block javascript %}
+<script src="../js/areaModal.js" type="application/javascript"></script>
+{% endblock %}
+<div class="modal fade" id="areaModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Area</h4>
+            </div>
+            <div class="modal-body">
+                <div class="fixed-table-header">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th data-field="id" tabindex="0"></th>
+                            <th data-field="nome" tabindex="0"></th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer form-group">
+                {#chama modal do arquivo /agenda/views/projeto/areaForm.html.twig#}
+                <input type="button" class="btn btn-default" id="addProjeto" data-toggle="modal" data-target="#areaForm" value="Add area">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

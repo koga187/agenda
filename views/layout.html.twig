@@ -22,8 +22,10 @@
 <div id="banner">
 |   <div>
         <span class="logout">Logout</span>
-        <div class="projeto">
-            <input type="button" class="btn btn-default" id="buttonOpenModalProjeto" data-toggle="modal" data-target="#projetoModal" value="Projetos"></div>
+        <div class="botoes">
+            <input type="button" class="btn btn-default" id="buttonOpenModalProjeto" data-toggle="modal" data-target="#projetoModal" value="Projetos">
+            <input type="button" class="btn btn-default" id="buttonOpenModalArea" data-toggle="modal" data-target="#areaModal" value="Area">
+        </div>
         <ul class="nav nav-tabs menuPrincipal">
             <li><a class="aba {% if timeline %} active {% endif %}" href="/timeline">Timeline</a></li>
             <li><a class="aba {% if backlog %} active {% endif %}" href="/backlog">Backlog</a></li>
@@ -36,6 +38,8 @@
 {% block modal %}
     {% include 'projeto/projetoModal.html.twig' %}
     {% include 'projeto/projetoForm.html.twig' %}
+    {% include 'area/areaModal.html.twig' %}
+    {% include 'area/areaForm.html.twig' %}
 {% endblock %}
 </body>
 </html>

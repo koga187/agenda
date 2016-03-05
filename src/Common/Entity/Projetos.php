@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="projetos")
+ * @ORM\Table(name="projeto")
  */
 class Projetos
 {
@@ -51,6 +51,11 @@ class Projetos
      * @ORM\Column(type="binary", length=255, nullable=true)
      */
     private $deleted;
+    /**
+     * @ORM\ManyToOne(targetEntity="Area")
+     * @ORM\JoinColumn(name="area_id", referencedColumnName="id", nullable=false)
+     */
+    private $areaId;
 
     /**
      * @return mixed
@@ -178,5 +183,21 @@ class Projetos
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAreaId()
+    {
+        return $this->areaId;
+    }
+
+    /**
+     * @param mixed $areaId
+     */
+    public function setAreaId($areaId)
+    {
+        $this->areaId = $areaId;
     }
 }

@@ -22,11 +22,11 @@
     float: right;
     padding-right: 10px;
 }
-#buttonOpenModalProjeto{
+#buttonOpenModalProjeto, #buttonOpenModalArea{
     float: right;
 }
 
-.projeto{
+.botoes{
     padding-top: 40px;
     padding-right: 10px;
 }
