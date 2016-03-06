@@ -1,3 +1,7 @@
+
+{% block stylesheet %}
+<link rel="stylesheet" type="text/css" href="../css/area.css">
+{% endblock %}
 {% block javascript %}
 <script src="../js/areaForm.js" type="application/javascript"></script>
 {% endblock %}
@@ -13,11 +17,12 @@
                 <div id="formProjeto" >
                     <label for="nomeArea">Nome:</label>
                     <input type="text" name="nomeArea" id="nomeArea" class="form-control"/>
+                    <input type="hidden" name="idArea" id="idArea" class="form-control"/>
                     <label for="descricaoArea">Descrição</label>
                     <input type="text" name="descricaoArea" id="descricaoArea" class="form-control"/>
                 </div>
                 <div class="grid" style=" {% if codigoArea %}display:none;{% endif %}">
-                    <table class="table bootstrap-table">
+                    <table class="table bootstrap-table tabelaEmail">
                         <thead class="title">
                         <tr><th>Nome</th><th>Email</th></tr>
                         </thead>
@@ -28,6 +33,9 @@
                                 </td>
                                 <td>
                                     <input class="form-control" type="text" name="email" id="email">
+                                </td>
+                                <td>
+                                    <span class="glyphicon glyphicon-plus adicionaEmail"></span>
                                 </td>
                             </tr>
                         </tbody>

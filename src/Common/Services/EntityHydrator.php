@@ -32,4 +32,37 @@ abstract Class EntityHydrator
 
         return $object;
     }
+
+    static public function dehydrated($entityClass)
+    {
+        $data = [];
+        $refObj = new ReflectionObject($entityClass);
+
+        foreach ($refObj->getProperties() as $key => $property) {
+            $getter = sprintf('get%s', ucfirst(Inflector::camelize($property->getName())));
+            $data[$property->getName()] = $entityClass->$getter();
+        }
+
+        return $data;
+    }
+
+    /**
+     * @param $arrayDeObjetos
+     * @return array
+     */
+    static public function toArray($arrayDeObjetos)
+    {
+        $dados = [];
+
+        foreach ($arrayDeObjetos as $object) {
+            $refObj = new ReflectionObject($object);
+
+            foreach ($refObj->getProperties() as $key => $property) {
+                $getter = sprintf('get%s', ucfirst(Inflector::camelize($property->getName())));
+                $dados[$object->getId()][$property->getName()] = $object->$getter();
+            }
+        }
+
+        return $dados;
+    }
 }

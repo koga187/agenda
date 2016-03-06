@@ -19,6 +19,7 @@ class Routes extends AbstractRoute implements ControllerProviderInterface
     {
         $routeFactory = $app['controllers_factory'];
         $routeFactory->post('/', 'Area\Controller\AreaController::createAction');
+        $routeFactory->get('/', 'Area\Controller\AreaController::readAction');
 
         return $routeFactory;
     }

@@ -11,6 +11,7 @@ namespace Area\Controller;
 
 use Area\Services\AreaService;
 use Common\Controller\ApiControllerInterface;
+use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
@@ -34,6 +35,7 @@ class AreaController implements ApiControllerInterface
         $areaService = new AreaService($app['entity_manager']);
 
         if ($areaEntity = $areaService->create('Common\Entity\Area', $dados)) {
+            $dados = EntityHydrator::dehydrated($areaEntity);
             $content = json_encode($dados);
             $status  = Response::HTTP_CREATED;
         } else {
@@ -46,14 +48,17 @@ class AreaController implements ApiControllerInterface
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
+     * @param Application $app
+     * @return array
      */
-    public function readAction(Request $request, EntityManager $em, Response $response)
+    public function readAction(Application $app)
     {
+        $serviceArea = new AreaService($app['entity_manager']);
+        $arrayArea = $serviceArea->read('Common\Entity\Area');
 
+        $dados =  EntityHydrator::toArray($arrayArea);
+
+        return new Response(json_encode($dados), Response::HTTP_FOUND);
     }
 
     /**

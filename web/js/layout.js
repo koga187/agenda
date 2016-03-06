@@ -9,4 +9,22 @@ $(document).ready(function(){
     path = window.location.pathname;
     host = 'http://'+window.location.host;
     body = $('body');
+
+    body.on('show.bs.modal', '#areaModal', function(){
+        $.ajax({
+            url: host + '/areas/',
+            data: {},
+            type:'GET',
+            dataType: 'JSON',
+            beforeSend: function() {
+
+            },
+            success: function($return, $jqHRX) {
+                console($return);
+            },
+            error: function() {
+
+            }
+        });
+    });
 });

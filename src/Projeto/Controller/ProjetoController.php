@@ -10,6 +10,7 @@ namespace Projeto\Controller;
 
 
 use Common\Controller\ApiControllerInterface;
+use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
 use Projeto\Services\ProjetoService;
 use Silex\Application;
@@ -37,6 +38,7 @@ class ProjetoController implements ApiControllerInterface
         $projetoService = new ProjetoService($app['entity_manager']);
 
         if ($projetosEntity = $projetoService->create('Common\Entity\Projetos', $dados)) {
+            $dados = EntityHydrator::dehydrated($projetosEntity);
             $content = json_encode($dados);
             $status  = Response::HTTP_CREATED;
         } else {

@@ -16,6 +16,6 @@ class IndexController
 
     public function indexAction(Application $app)
     {
-        return $app['twig']->render('timeline/timeline.html.twig', array('timeline'=>true, 'backlog'=>false));
+        return $app['twig']->render('timeline/timeline.html.twig', array('timeline'=>true, 'backlog'=>false, 'codigoArea' => true));
     }
 }

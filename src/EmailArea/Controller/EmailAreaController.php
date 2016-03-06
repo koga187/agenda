@@ -10,7 +10,10 @@ namespace EmailArea\Controller;
 
 
 use Area\Services\AreaService;
+use Common\Entity\Email;
+use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
+use EmailArea\Services\EmailAreaServices;
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -28,12 +31,14 @@ class EmailAreaController
 
         $dados = [
             'nome' => $request->get('nomeEmail'),
-            'email' => $request->get('email')
+            'email' => $request->get('email'),
+            'idArea' => $request->get('idArea')
         ];
 
-        $areaService = new AreaService($app['entity_manager']);
+        $emailAreaService = new EmailAreaServices($app['entity_manager']);
 
-        if ($areaEntity = $areaService->create('Common\Entity\Area', $dados)) {
+        if ($emailAreaEntity = $emailAreaService->create(new Email(), $dados)) {
+            $dados = EntityHydrator::dehydrated($emailAreaEntity);
             $content = json_encode($dados);
             $status  = Response::HTTP_CREATED;
         } else {

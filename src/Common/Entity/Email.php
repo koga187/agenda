@@ -27,6 +27,10 @@ class Email
      */
     private $email;
     /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $nome;
+    /**
      * @ORM\ManyToOne(targetEntity="Area")
      * @ORM\JoinColumn(name="area_id", referencedColumnName="id")
      */
@@ -41,11 +45,13 @@ class Email
     }
 
     /**
-     * @param mixed $id
+     * @param $id
+     * @return $this
      */
     public function setId($id)
     {
         $this->id = $id;
+        return $this;
     }
 
     /**
@@ -57,12 +63,33 @@ class Email
     }
 
     /**
-     * @param mixed $email
+     * @param $email
+     * @return $this
      */
     public function setEmail($email)
     {
         $this->email = $email;
+        return $this;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * @param $nome
+     * @return $this
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+        return $this;
+    }
+
 
     /**
      * @return mixed
@@ -73,10 +100,12 @@ class Email
     }
 
     /**
-     * @param mixed $areaId
+     * @param $areaId
+     * @return $this
      */
     public function setAreaId($areaId)
     {
         $this->areaId = $areaId;
+        return $this;
     }
 }

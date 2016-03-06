@@ -22,12 +22,10 @@ interface ApiControllerInterface
     public function createAction(Application $app);
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
+     * @param Application $app
      * @return mixed
      */
-    public function readAction(Request $request, EntityManager $em, Response $response);
+    public function readAction(Application $app);
 
     /**
      * @param Request $request

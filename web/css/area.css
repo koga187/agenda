@@ -1,0 +1,4 @@
+.adicionaEmail:hover, .deleteEmail:hover{
+    cursor: hand;
+    top:11px;
+}
