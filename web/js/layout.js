@@ -11,7 +11,7 @@ $(document).ready(function(){
     body = $('body');
 
     body.on('show.bs.modal', '#areaModal', function(){
-        $.ajax({
+        $.get({
             url: host + '/areas/',
             data: {},
             type:'GET',
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
             },
             success: function($return, $jqHRX) {
-                console($return);
+                atualizaTabelaArea($return.areas);
             },
             error: function() {
 
@@ -28,3 +28,17 @@ $(document).ready(function(){
         });
     });
 });
+
+function atualizaTabelaArea($jsonArea) {
+    var $table = $('#tableArea');
+
+    var tableParams = {
+        columns: [
+            { field: 'id',  title: 'Código Area',   align: 'center',   valign: 'middle', sortable: true, class : 'noWrap'},
+            { field: 'nome',     title: 'Nome',     align: 'left', valign: 'middle', sortable: true }
+        ],
+        data : $jsonArea
+    };
+
+    $table.bootstrapTable(tableParams);
+}
