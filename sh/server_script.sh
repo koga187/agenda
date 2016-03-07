@@ -54,7 +54,7 @@ echo "############ Baixa o composer utilizando o Curl ############"
 curl -Ss https://getcomposer.org/installer | php;
 sudo mv composer.phar /usr/bin/composer;
 echo "############ Executa o composer do projeto ############"
-composer install --no-progress;
+composer install;
 echo "############ Instalando Mysql-Server ############"
 export DEBIAN_FRONTEND=noninteractive;
 sudo -E apt-get -q -y install mysql-server;
@@ -64,7 +64,19 @@ sudo mysqladmin -uroot password root;
 echo "############ Criando banco agendamento############"
 mysql -uroot -proot -e 'CREATE DATABASE agendamento CHARSET utf8'
 echo "############ Criando tabelas com Doctrine############"
-cd ${DOCUMENT_ROOT}/bin;
+cd ${DOCUMENT_ROOT}/vendor/doctrine/orm/bin/;
+echo "<?php
+     /**
+      * Created by PhpStorm.
+      * User: koga
+      * Date: 28/02/16
+      * Time: 14:00
+      */
+     use Doctrine\ORM\Tools\Console\ConsoleRunner;
+
+     require_once '../../../../bootstrap.php';
+     return ConsoleRunner::createHelperSet($em);" > cli-config;
+
 php doctrine orm:schema-tool:create;
 
 
