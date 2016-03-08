@@ -9,6 +9,7 @@
 namespace Projeto\Controller;
 
 
+use Common\Controller\ApiControllerAbstract;
 use Common\Controller\ApiControllerInterface;
 use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
@@ -17,7 +18,7 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class ProjetoController implements ApiControllerInterface
+class ProjetoController extends ApiControllerAbstract implements ApiControllerInterface
 {
     /**
      * @param Application $app
@@ -47,16 +48,13 @@ class ProjetoController implements ApiControllerInterface
         }
 
 
-        return new Response($content, $status);
+        return $this->response->create($content, $status);
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
+     * @param Application $app
      */
-    public function readAction(Request $request, EntityManager $em, Response $response)
+    public function readAction(Application $app)
     {
 
     }

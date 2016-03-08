@@ -1,8 +1,8 @@
 composer.phar
 composer.lock
 /vendor/
-.vagrant/
-.idea/
+/.vagrant/
+/.idea/
 bin/doctrine
 bin/doctrine.php
 bin/doctrine-dbal

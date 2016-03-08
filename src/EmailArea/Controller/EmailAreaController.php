@@ -10,6 +10,8 @@ namespace EmailArea\Controller;
 
 
 use Area\Services\AreaService;
+use Common\Controller\ApiControllerAbstract;
+use Common\Controller\ApiControllerInterface;
 use Common\Entity\Email;
 use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
@@ -18,8 +20,13 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class EmailAreaController
+class EmailAreaController extends ApiControllerAbstract implements ApiControllerInterface
 {
+    public function __construct(Response $response)
+    {
+        $this->response = $response;
+        $this->response->headers->set('Content-type', 'text/json');
+    }
 
     /**
      * @param Application $app
@@ -47,7 +54,7 @@ class EmailAreaController
         }
 
 
-        return new Response($content, $status);
+        return $this->response->create($content, $status);
     }
 
     /**
@@ -56,7 +63,7 @@ class EmailAreaController
      * @param Response $response
      * @return mixed
      */
-    public function readAction(Request $request, EntityManager $em, Responsee $response)
+    public function readAction(Application $app)
     {
 
     }
