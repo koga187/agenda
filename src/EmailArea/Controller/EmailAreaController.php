@@ -22,12 +22,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 class EmailAreaController extends ApiControllerAbstract implements ApiControllerInterface
 {
-    public function __construct(Response $response)
-    {
-        $this->response = $response;
-        $this->response->headers->set('Content-type', 'text/json');
-    }
-
     /**
      * @param Application $app
      * @return Response
@@ -41,6 +35,7 @@ class EmailAreaController extends ApiControllerAbstract implements ApiController
             'email' => $request->get('email'),
             'idArea' => $request->get('idArea')
         ];
+
 
         $emailAreaService = new EmailAreaServices($app['entity_manager']);
 

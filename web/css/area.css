@@ -1,4 +1,7 @@
 .adicionaEmail:hover, .deleteEmail:hover{
     cursor: hand;
+}
+
+.adicionaEmail, .deleteEmail{
     top:11px;
 }

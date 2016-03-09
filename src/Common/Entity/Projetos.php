@@ -66,14 +66,6 @@ class Projetos
     }
 
     /**
-     * @param mixed $id
-     */
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-
-    /**
      * @return mixed
      */
     public function getNome()
@@ -82,11 +74,14 @@ class Projetos
     }
 
     /**
-     * @param mixed $nome
+     * @param $nome
+     * @return $this
      */
     public function setNome($nome)
     {
         $this->nome = $nome;
+
+        return $this;
     }
 
     /**
@@ -98,11 +93,14 @@ class Projetos
     }
 
     /**
-     * @param mixed $descricao
+     * @param $descricao
+     * @return $this
      */
     public function setDescricao($descricao)
     {
         $this->descricao = $descricao;
+
+        return $this;
     }
 
     /**
@@ -114,11 +112,14 @@ class Projetos
     }
 
     /**
-     * @param mixed $dataInicio
+     * @param $dataInicio
+     * @return $this
      */
     public function setDataInicio($dataInicio)
     {
         $this->dataInicio = $dataInicio;
+
+        return $this;
     }
 
     /**
@@ -130,11 +131,14 @@ class Projetos
     }
 
     /**
-     * @param mixed $dataFim
+     * @param $dataFim
+     * @return $this
      */
     public function setDataFim($dataFim)
     {
         $this->dataFim = $dataFim;
+
+        return $this;
     }
 
     /**
@@ -146,11 +150,14 @@ class Projetos
     }
 
     /**
-     * @param mixed $dataIn
+     * @param $dataIn
+     * @return $this
      */
     public function setDataIn($dataIn)
     {
         $this->dataIn = $dataIn;
+
+        return $this;
     }
 
     /**
@@ -162,11 +169,14 @@ class Projetos
     }
 
     /**
-     * @param mixed dataDelete
+     * @param $dataDelete
+     * @return $this
      */
     public function setDataDelete($dataDelete)
     {
         $this->dataDelete = $dataDelete;
+
+        return $this;
     }
 
     /**
@@ -178,11 +188,14 @@ class Projetos
     }
 
     /**
-     * @param mixed $deleted
+     * @param $deleted
+     * @return $this
      */
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
+
+        return $this;
     }
 
     /**
@@ -194,10 +207,13 @@ class Projetos
     }
 
     /**
-     * @param mixed $areaId
+     * @param $areaId
+     * @return $this
      */
     public function setAreaId($areaId)
     {
         $this->areaId = $areaId;
+
+        return $this;
     }
 }

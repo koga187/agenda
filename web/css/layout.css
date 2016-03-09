@@ -34,3 +34,11 @@
 #menuPrincipal{
     padding-top: 40px;
 }
+
+.acoes:hover{
+    cursor: hand;
+}
+
+.acoes {
+    padding-left: 15px;
+}
