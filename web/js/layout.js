@@ -1,5 +1,4 @@
 var body;
-//var projetos = [];
 var url;
 var path;
 var host;
@@ -19,8 +18,47 @@ $(document).ready(function(){
             beforeSend: function() {
 
             },
-            success: function($return, $jqHRX) {
+            success: function($return) {
                 atualizaTabelaArea($return.areas);
+            },
+            error: function() {
+
+            }
+        });
+    });
+
+    body.on('show.bs.modal', '#projetoModal', function(){
+        $.get({
+            url: host + '/projetos/',
+            data: {},
+            type:'GET',
+            dataType: 'JSON',
+            beforeSend: function() {
+
+            },
+            success: function($return) {
+                atualizaTabelaArea($return.projetos);
+            },
+            error: function() {
+
+            }
+        });
+    });
+
+    body.on('show.bs.modal', '#projetoForm', function(){
+        $.get({
+            url: host + '/areas/',
+            data: {},
+            type:'GET',
+            dataType: 'JSON',
+            beforeSend: function() {
+
+            },
+            success: function($return) {
+                if($('#selectArea').length > 0) {
+                    $('#selectArea').remove();
+                }
+                $('div#formProjeto').append(createOption('selectArea', $return.areas));
             },
             error: function() {
 
@@ -29,16 +67,24 @@ $(document).ready(function(){
     });
 });
 
-function atualizaTabelaArea($jsonArea) {
-    var $table = $('#tableArea');
+function botaoAlteracao(id) {
+    return "<span class='glyphicon glyphicon-pencil acoes' id='"+id+"'></span>";
+}
 
-    var tableParams = {
-        columns: [
-            { field: 'id',  title: 'Código Area',   align: 'center',   valign: 'middle', sortable: true, class : 'noWrap'},
-            { field: 'nome',     title: 'Nome',     align: 'left', valign: 'middle', sortable: true }
-        ],
-        data : $jsonArea
-    };
+function botaoExclusao(id) {
+    return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";
+}
 
-    $table.bootstrapTable(tableParams);
+function createOption(id, values) {
+    option = '<label for="selectArea">Selecione a Area</label>' +
+        '<select name="selectArea" id="selectArea" class="form-control">' +
+        '<option value="">Selecione uma Area</option>';
+
+    $.each(values, function(key, value){
+        option += '<option value="'+value.id+'">'+value.nome+'</option>';
+    });
+
+    option += '</<select>';
+
+    return option;
 }

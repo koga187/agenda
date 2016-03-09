@@ -5,14 +5,15 @@ $(document).ready(function(){
     body.on('click', '#salvarProjeto', function() {
 
         $.post({
-            url: host + '/area/',
+            url: host + '/projetos/',
             type: 'POST',
             dataType: 'JSON',
             data: {
                 'tituloProjeto': $('#tituloProjeto').val(),
                 'descricaoProjeto': $('#descricaoProjeto').val(),
                 'dataInicio': $('#dataInicio').val(),
-                'dataFim': $('#dataFim').val()
+                'dataFim': $('#dataFim').val(),
+                'selectArea': $('#selectArea').val()
             },
 
             beforeSend: function () {
