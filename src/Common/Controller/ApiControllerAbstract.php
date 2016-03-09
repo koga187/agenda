@@ -21,7 +21,6 @@ class ApiControllerAbstract implements ApiControllerInterface
     public function __construct()
     {
         $this->response = new Response();
-        $this->response->headers->set('Content-Type', 'application/json', true);
     }
     /**
      * @param Application $app

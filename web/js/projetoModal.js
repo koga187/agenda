@@ -1,4 +1,4 @@
-function atualizaTabelaArea(jsonArea) {
+function atualizaTabelaProjeto(jsonArea) {
     var table = $('#tableProjeto');
 
     var data = Array();
@@ -17,9 +17,4 @@ function atualizaTabelaArea(jsonArea) {
     };
 
     table.bootstrapTable(tableParams);
-}
-
-function resetTable(){
-    var $table = $('#tableProjeto');
-    $table.bootstrapTable('resetView');
 }

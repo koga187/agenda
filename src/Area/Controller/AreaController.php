@@ -44,8 +44,10 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
             $status  = Response::HTTP_NOT_MODIFIED;
         }
 
+        $this->response->setContent($content);
+        $this->response->setStatusCode($status);
 
-        return $this->response->create($content, $status);
+        return $this->response;
     }
 
     /**
@@ -55,19 +57,24 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
     public function readAction(Application $app)
     {
         $serviceArea = new AreaService($app['entity_manager']);
-        $arrayArea = $serviceArea->read('Common\Entity\Area');
+        $objectArea = $serviceArea->read('Common\Entity\Area');
 
-        if(count($arrayArea) > 0) {
-            $dados['areas'] =  EntityHydrator::toArray($arrayArea);
+        if(count($objectArea) > 0) {
+            $dados =  EntityHydrator::toArray($objectArea);
+            $dados['total'] =  count($dados['rows']);
+
             $status = Response::HTTP_OK;
             $content = json_encode($dados);
         } else {
-            $dados['areas'] = [];
+            $dados = [];
             $content = json_encode([]);
             $status = Response::HTTP_NO_CONTENT;
         }
 
-        return $this->response->create($content, $status);
+        $this->response->setContent($content);
+        $this->response->setStatusCode($status);
+
+        return $this->response;
     }
 
     /**

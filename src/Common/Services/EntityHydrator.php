@@ -52,15 +52,13 @@ abstract Class EntityHydrator
      */
     static public function toArray($arrayDeObjetos)
     {
-        $dados = [];
-
         foreach ($arrayDeObjetos as $object) {
             $refObj = new ReflectionObject($object);
-
             foreach ($refObj->getProperties() as $key => $property) {
                 $getter = sprintf('get%s', ucfirst(Inflector::camelize($property->getName())));
-                $dados[$object->getId()][$property->getName()] = $object->$getter();
+                $array[$property->getName()] = $object->$getter();
             }
+            $dados['rows'][] = $array;
         }
 
         return $dados;

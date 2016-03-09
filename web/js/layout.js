@@ -10,39 +10,42 @@ $(document).ready(function(){
     body = $('body');
 
     body.on('show.bs.modal', '#areaModal', function(){
-        $.get({
-            url: host + '/areas/',
-            data: {},
-            type:'GET',
-            dataType: 'JSON',
-            beforeSend: function() {
-
-            },
-            success: function($return) {
-                atualizaTabelaArea($return.areas);
-            },
-            error: function() {
-
-            }
-        });
+        //$.get({
+        //    url: host + '/areas/',
+        //    data: {},
+        //    type:'GET',
+        //    dataType: 'JSON',
+        //    beforeSend: function() {
+        //
+        //    },
+        //    success: function($return) {
+        //        resetTable('tableArea');
+        //        atualizaTabelaArea($return.areas);
+        //    },
+        //    error: function() {
+        //
+        //    }
+        //});
+        geraTabelaArea();
     });
 
     body.on('show.bs.modal', '#projetoModal', function(){
-        $.get({
-            url: host + '/projetos/',
-            data: {},
-            type:'GET',
-            dataType: 'JSON',
-            beforeSend: function() {
-
-            },
-            success: function($return) {
-                atualizaTabelaArea($return.projetos);
-            },
-            error: function() {
-
-            }
-        });
+        //$.get({
+        //    url: host + '/projetos/',
+        //    data: {},
+        //    type:'GET',
+        //    dataType: 'JSON',
+        //    beforeSend: function() {
+        //
+        //    },
+        //    success: function($return) {
+        //        resetTable('tableProjeto');
+        //        atualizaTabelaArea($return.projetos);
+        //    },
+        //    error: function() {
+        //
+        //    }
+        //});
     });
 
     body.on('show.bs.modal', '#projetoForm', function(){
@@ -67,12 +70,16 @@ $(document).ready(function(){
     });
 });
 
-function botaoAlteracao(id) {
-    return "<span class='glyphicon glyphicon-pencil acoes' id='"+id+"'></span>";
-}
-
-function botaoExclusao(id) {
-    return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";
+function acoesBotoes() {
+    return [
+        '<a class="editItem" data-toggle="tooltip" title="Editar" href="',host,'/areas/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-edit"></span>',
+        '</a>',
+        '<a class="excluirItem" data-toggle="tooltip" title="Excluir" href="',host,'/areas/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-edit"></span>',
+        '</a>'
+    ].join('');
+    //return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";
 }
 
 function createOption(id, values) {
