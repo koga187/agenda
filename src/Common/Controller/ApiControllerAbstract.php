@@ -14,51 +14,12 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class ApiControllerAbstract implements ApiControllerInterface
+class ApiControllerAbstract
 {
     protected $response;
 
     public function __construct()
     {
         $this->response = new Response();
-    }
-    /**
-     * @param Application $app
-     * @return mixed
-     */
-    public function createAction(Application $app)
-    {
-
-    }
-
-    /**
-     * @param Application $app
-     * @return mixed
-     */
-    public function readAction(Application $app)
-    {
-
-    }
-
-    /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
-     */
-    public function updateAction(Request $request, EntityManager $em, Response $response)
-    {
-
-    }
-
-    /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
-     */
-    public function deleteAction(Request $request, EntityManager $em, Response $response)
-    {
-
     }
 }

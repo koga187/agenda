@@ -9,6 +9,7 @@
 namespace Projeto\Services;
 
 use Common\Entity\Projetos;
+use Common\Repository\ProjetosRepository;
 use Common\Services\AbstractCRUD;
 
 class ProjetoService extends AbstractCRUD
@@ -27,5 +28,19 @@ class ProjetoService extends AbstractCRUD
         $this->em->flush();
 
         return $projetoEntity;
+    }
+
+    /**
+     * @param $id
+     * @return array
+     */
+    public function readById($id)
+    {
+        /**
+         * @var ProjetosRepository $repository
+         */
+        $repository = $this->em->getRepository('Common\Entity\Projetos');
+
+        return $repository->getProjetoById($id);
     }
 }

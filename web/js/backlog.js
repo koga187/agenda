@@ -1,5 +1,28 @@
 $(document).ready(function(){
 
+    body.on('click', '.backlogFromProject', function(e){
+        e.preventDefault();
+        var link = $(this).attr('href');
+        var nome = $(this).data('nome');
+        var id = $(this).data('id');
+        var backLogTable = $('#projetoBacklog');
+
+        $.get({
+            url:link,
+            error: function(){
+                alert('Erro ao buscar os dados!');
+            },
+            success: function(data) {
+                $('#projetoModal').modal('hide');
+                backLogTable.text(nome);
+                backLogTable.attr('data-id', id);
+
+                motarTabelaBacklog(id);
+            }
+        })
+
+    });
+
     $('td.Tarefa').droppable(function(){
         alert('trabaia cumpadi');
     });
@@ -19,21 +42,12 @@ $(document).ready(function(){
         $novaTarefa.find('.horasTarefaView').html($('#horasTarefa').val());
         $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', $('.tarefaAgendada').length+1).draggable();
 
-        $('tr#projeto_'+$('#optionProjetoTarefa').val()+' td.to_do').append($novaTarefa);
+        $('.to_do_'+$('#projetoBacklog').attr('data-id')).append($novaTarefa);
     });
 
     $('#modalTarefa').on('show.bs.modal', function(ev){
-        if($('.tituloBacklogProjeto').length > 0) {
-            if($('#optionProjetoTarefa').length > 0) {
-                $('#optionProjetoTarefa').remove();
-            }
-            var optionProjeto = '<select id="optionProjetoTarefa" class="form-control">';
-            $('.tituloBacklogProjeto').each(function(){
-                optionProjeto += '<option value="'+$(this).html()+'">'+$(this).html()+'</option>';
-            });
-            optionProjeto += '</select>';
+        if($('#projetoBacklog').attr('data-id') > 0) {
 
-            $(this).find('.modal-body').append(optionProjeto);
         } else {
             ev.preventDefault();
             alert('Cadastre projetos!');
@@ -41,3 +55,13 @@ $(document).ready(function(){
 
     });
 });
+
+function motarTabelaBacklog(id) {
+    $('#backlogTable').append(
+        '<tr>' +
+            '<td class="to_do_'+id+'" style></td>'+
+            '<td class="progress_'+id+'"></td>'+
+            '<td class="done_'+id+'"></td>'+
+        '</tr>'
+    );
+}

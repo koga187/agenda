@@ -14,22 +14,6 @@ $(document).ready(function(){
     });
 
     body.on('show.bs.modal', '#projetoModal', function(){
-        //$.get({
-        //    url: host + '/projetos/',
-        //    data: {},
-        //    type:'GET',
-        //    dataType: 'JSON',
-        //    beforeSend: function() {
-        //
-        //    },
-        //    success: function($return) {
-        //        resetTable('tableProjeto');
-        //        atualizaTabelaArea($return.projetos);
-        //    },
-        //    error: function() {
-        //
-        //    }
-        //});
         geraTabelaProjeto();
     });
 
@@ -55,12 +39,28 @@ $(document).ready(function(){
     });
 });
 
-function acoesBotoes() {
+function acoesBotoesArea() {
     return [
         '<a class="editItem" data-toggle="tooltip" title="Editar" href="',host,'/areas/',arguments[1].id,'">',
         '<span class="glyphicon glyphicon-pencil"></span>',
         '</a>',
         '<a class="excluirItem" data-toggle="tooltip" title="Excluir" href="',host,'/areas/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-trash"></span>',
+        '</a>'
+    ].join('');
+    //return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";
+}
+
+function acoesBotoesProjeto() {
+    return [
+        '<a class="backlogFromProject" data-toggle="tooltip" title="Backlog" href="',host,'/projetos/',arguments[1].id,'/backlogs"' +
+        'data-id="',arguments[1].id,'" data-nome="',arguments[1].nome,'">',
+        '<span class="glyphicon glyphicon-th"></span>',
+        '</a>',
+        '<a class="editItem" data-toggle="tooltip" title="Editar" href="',host,'/projetos/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-pencil"></span>',
+        '</a>',
+        '<a class="excluirItem" data-toggle="tooltip" title="Excluir" href="',host,'/projetos/',arguments[1].id,'">',
         '<span class="glyphicon glyphicon-trash"></span>',
         '</a>'
     ].join('');

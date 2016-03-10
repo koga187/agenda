@@ -63,6 +63,11 @@ class EmailAreaController extends ApiControllerAbstract implements ApiController
 
     }
 
+    public function readByIdAction(Application $app)
+    {
+
+    }
+
     /**
      * @param Request $request
      * @param EntityManager $em

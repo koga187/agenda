@@ -46,7 +46,7 @@ function geraTabelaArea() {
                     align: 'center',
                     valign: 'middle',
                     sortable: false,
-                    formatter : acoesBotoes,
+                    formatter : acoesBotoesArea,
                     switchable : false,
                     width: 50
                 }

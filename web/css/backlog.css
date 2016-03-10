@@ -1,7 +1,3 @@
-.tarefaAgendada{
-    background-color: yellow;
-}
-
 td.to_do{
     width: 400px;
 }
@@ -9,7 +5,6 @@ td.to_do{
 div.tarefaAgendada{
     width: 180px;
     height: 95px;
-    float: left;
     -webkit-border-top-right-radius: 20px;
     -moz-border-radius-topright: 20px;
     border-top-right-radius: 20px;
@@ -55,4 +50,12 @@ div.tarefaAgendada{
 
 .tituloBacklogProjeto{
     margin: 0 0 0 0;
+}
+
+#to_do{
+    cursor: hand;
+}
+
+#backlogTable > tbody > tr > td {
+    height: 350px;
 }

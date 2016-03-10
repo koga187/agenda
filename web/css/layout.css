@@ -5,6 +5,10 @@
     float:left;
 }
 
+a {
+    color: black;
+}
+
 .aba{
     color: #ffffff;
     font-weight: bold;
@@ -16,11 +20,12 @@
     background-color: #77a2ee;
 }
 
-.logout{
+#projetoBacklog{
     color: #ffffff;
     font-weight: bold;
-    float: right;
-    padding-right: 10px;
+    float: left;
+    padding-left: 18px;
+    font-size: 25px;
 }
 #buttonOpenModalProjeto, #buttonOpenModalArea{
     float: right;

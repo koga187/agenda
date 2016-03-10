@@ -9,6 +9,7 @@
 namespace Projeto\Controller;
 
 
+use Backlog\Service\BacklogServices;
 use Common\Controller\ApiControllerAbstract;
 use Common\Controller\ApiControllerInterface;
 use Common\Entity\Projetos;
@@ -48,8 +49,10 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
             $status  = Response::HTTP_NOT_MODIFIED;
         }
 
+        $this->response->setContent($content);
+        $this->response->setStatusCode($status);
 
-        return $this->response->create($content, $status);
+        return $this->response;
     }
 
     /**
@@ -62,16 +65,80 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
         $arrayProjeto = $serviceProjeto->read('Common\Entity\Projetos');
 
         if(count($arrayProjeto) > 0) {
-            $dados['projetos'] =  EntityHydrator::toArray($arrayProjeto);
+            $dados =  EntityHydrator::toArray($arrayProjeto);
+            $dados['total'] = count($dados['rows']);
             $status = Response::HTTP_OK;
             $content = json_encode($dados);
         } else {
-            $dados['projetos'] = [];
+            $dados['rows'] = [];
             $content = json_encode([]);
             $status = Response::HTTP_NO_CONTENT;
         }
 
-        return $this->response->create($content, $status);
+        $this->response->setContent($content);
+        $this->response->setStatusCode($status);
+
+        return $this->response;
+    }
+
+    /**
+     * @param Application $app
+     */
+    public function readByIdAction(Application $app)
+    {
+        $request = $app['request'];
+
+        $projetoService = new ProjetoService($app['entity_manager']);
+        $array = $projetoService->readById($request->get('id'));
+
+
+        $dados = [];
+        $status = Response::HTTP_NO_CONTENT;
+
+        /**
+         * @var Projetos $array[]
+         */
+        if(count($array) > 0) {
+            $dados['id'] = $array[0]->getId();
+            $dados['nome'] = $array[0]->getNome();
+            $dados['descricao'] = $array[0]->getDescricao();
+            $dados['idArea'] = $array[0]->getAreaId()->getId();
+            $dados['dataInicio'] = $array[0]->getDataInicio()->format('d/m/Y');
+            $dados['dataFim'] = $array[0]->getDataFim()->format('d/m/Y');
+            $status = Response::HTTP_OK;
+        }
+
+        $this->response->setContent(json_encode($dados))
+            ->setStatusCode($status);
+
+        return $this->response;
+    }
+
+    /**
+     * @param Application $app
+     * @return Response
+     */
+    public function getBacklogsAction(Application $app)
+    {
+        $request = $app['request'];
+        $projetoId = $request->get('id');
+
+        $backlogService = new BacklogServices($app['entity_manager']);
+        $backlogService->getBacklogByProjetcId($projetoId);
+
+        $content = [];
+        $status = Response::HTTP_NO_CONTENT;
+
+        if(count($backlogService) > 0) {
+            $content = $backlogService;
+            $status = Response::HTTP_OK;
+        }
+
+        $this->response->setContent(json_encode($content))
+            ->setStatusCode($status);
+
+        return $this->response;
+
     }
 
     /**

@@ -48,10 +48,14 @@ abstract Class EntityHydrator
 
     /**
      * @param $arrayDeObjetos
+     * @param null $callBack
      * @return array
      */
     static public function toArray($arrayDeObjetos)
     {
+
+        $dados = [];
+
         foreach ($arrayDeObjetos as $object) {
             $refObj = new ReflectionObject($object);
             foreach ($refObj->getProperties() as $key => $property) {
@@ -62,5 +66,6 @@ abstract Class EntityHydrator
         }
 
         return $dados;
+
     }
 }

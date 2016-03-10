@@ -77,6 +77,11 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
         return $this->response;
     }
 
+    public function readByIdAction(Application $app)
+    {
+
+    }
+
     /**
      * @param Request $request
      * @param EntityManager $em
