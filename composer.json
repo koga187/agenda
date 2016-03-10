@@ -15,7 +15,8 @@
 			"Timeline\\":"src/Timeline/",
 			"Projeto\\":"src/Projeto/",
 			"Area\\":"src/Area/",
-			"EmailArea\\":"src/EmailArea/"
+			"EmailArea\\":"src/EmailArea/",
+			"Proxies\\":"tmp/Proxies"
 		}
 	}
 }

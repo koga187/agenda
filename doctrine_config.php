@@ -27,15 +27,15 @@ $driverChain = new Doctrine\ORM\Mapping\Driver\DriverChain();
 $driverChain->addDriver($annotationDriver, 'Common');
 
 $config = new Configuration;
-$config->setProxyDir('/tmp');
-$config->setProxyNamespace('/Proxy');
+$config->setProxyDir('../tmp/Proxies/');
+$config->setProxyNamespace('\Proxies');
 $config->setAutoGenerateProxyClasses(true);
 $config->setMetadataDriverImpl($driverChain);
 $config->setMetadataCacheImpl($cache);
 $config->setQueryCacheImpl($cache);
 //PATH ##{$PATH}/agenda/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/DoctrineAnnotations.php##
 AnnotationRegistry::registerFile(__DIR__. DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'doctrine'.DIRECTORY_SEPARATOR.'orm'.DIRECTORY_SEPARATOR.'lib'.DIRECTORY_SEPARATOR.'Doctrine'.DIRECTORY_SEPARATOR.'ORM'.DIRECTORY_SEPARATOR.'Mapping'.DIRECTORY_SEPARATOR.'Driver'.DIRECTORY_SEPARATOR.'DoctrineAnnotations.php');
-
+//exit(var_dump($config);
 $evm = new EventManager();
 $em = EntityManager::create(
     array(

@@ -10,22 +10,6 @@ $(document).ready(function(){
     body = $('body');
 
     body.on('show.bs.modal', '#areaModal', function(){
-        //$.get({
-        //    url: host + '/areas/',
-        //    data: {},
-        //    type:'GET',
-        //    dataType: 'JSON',
-        //    beforeSend: function() {
-        //
-        //    },
-        //    success: function($return) {
-        //        resetTable('tableArea');
-        //        atualizaTabelaArea($return.areas);
-        //    },
-        //    error: function() {
-        //
-        //    }
-        //});
         geraTabelaArea();
     });
 
@@ -46,6 +30,7 @@ $(document).ready(function(){
         //
         //    }
         //});
+        geraTabelaProjeto();
     });
 
     body.on('show.bs.modal', '#projetoForm', function(){
@@ -61,7 +46,7 @@ $(document).ready(function(){
                 if($('#selectArea').length > 0) {
                     $('#selectArea').remove();
                 }
-                $('div#formProjeto').append(createOption('selectArea', $return.areas));
+                $('div#formProjeto').append(createOption('selectArea', $return.rows));
             },
             error: function() {
 
@@ -73,10 +58,10 @@ $(document).ready(function(){
 function acoesBotoes() {
     return [
         '<a class="editItem" data-toggle="tooltip" title="Editar" href="',host,'/areas/',arguments[1].id,'">',
-        '<span class="glyphicon glyphicon-edit"></span>',
+        '<span class="glyphicon glyphicon-pencil"></span>',
         '</a>',
         '<a class="excluirItem" data-toggle="tooltip" title="Excluir" href="',host,'/areas/',arguments[1].id,'">',
-        '<span class="glyphicon glyphicon-edit"></span>',
+        '<span class="glyphicon glyphicon-trash"></span>',
         '</a>'
     ].join('');
     //return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";

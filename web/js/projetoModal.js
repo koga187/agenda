@@ -18,3 +18,41 @@ function atualizaTabelaProjeto(jsonArea) {
 
     table.bootstrapTable(tableParams);
 }
+
+
+function geraTabelaProjeto() {
+
+    $(function () {
+        $('#tableProjeto').bootstrapTable({
+            method: 'get',
+            url: host+'/projetos/',
+            dataType:'json',
+            responseHandler: function(res) {
+                if(res['total'] > 0) {
+                    return res;
+                }
+
+                return {total:0, rows:[]};
+            },
+            onLoadSuccess: function(_data) {
+                console.log(_data);
+            },
+            onLoadError: function(_status) {
+                alert(_status);
+            },
+            columns: [
+                { field: 'id',  title: 'Código',   align: 'center',   valign: 'middle', sortable: true, class : 'noWrap', width : '100px'},
+                { field: 'nome',     title: 'Nome',     align: 'left', valign: 'middle', sortable: true, width : '300px'},
+                { field: '',
+                    title: '<span class="glyphicon glyphicon-asterisk" data-toggle="tooltip" title="Ações Disponíveis"></span>',
+                    align: 'center',
+                    valign: 'middle',
+                    sortable: false,
+                    formatter : acoesBotoes,
+                    switchable : false,
+                    width: 50
+                }
+            ]
+        });
+    });
+}

@@ -41,7 +41,6 @@ function geraTabelaArea() {
             columns: [
                 { field: 'id',  title: 'Código',   align: 'center',   valign: 'middle', sortable: true, class : 'noWrap', width : '100px'},
                 { field: 'nome',     title: 'Nome',     align: 'left', valign: 'middle', sortable: true, width : '300px'},
-                { field: 'acoes',     title: 'Ações',     align: 'center', valign: 'middle', sortable: false },
                 { field: '',
                     title: '<span class="glyphicon glyphicon-asterisk" data-toggle="tooltip" title="Ações Disponíveis"></span>',
                     align: 'center',
