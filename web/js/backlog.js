@@ -38,7 +38,7 @@ $(document).ready(function(){
     body.on('click', '#salvarFormulario', function(){
         var $novaTarefa = $('.tarefaView').clone();
         $novaTarefa.find('.tituloTarefaView').html($('#tituloTarefa').val());
-        $novaTarefa.find('.descricaoTarefaView').html($('#descricaoTarefa').val());
+        //$novaTarefa.find('.descricaoTarefaView').html($('#descricaoTarefa').val());
         $novaTarefa.find('.horasTarefaView').html($('#horasTarefa').val());
         $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', $('.tarefaAgendada').length+1).draggable();
 
