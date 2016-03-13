@@ -55,3 +55,14 @@ function geraTabelaArea() {
     });
 }
 
+function acoesBotoesArea() {
+    return [
+        '<a class="editArea" data-toggle="tooltip" title="Editar" href="',host,'/areas/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-pencil"></span>',
+        '</a>',
+        '<a class="excluirArea" data-toggle="tooltip" title="Excluir" href="',host,'/areas/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-trash"></span>',
+        '</a>'
+    ].join('');
+}
+

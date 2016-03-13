@@ -34,12 +34,10 @@ interface ApiControllerInterface
     public function readByIdAction(Application $app);
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
+     * @param Application $app
      * @return mixed
      */
-    public function updateAction(Request $request, EntityManager $em, Response $response);
+    public function updateAction(Application $app);
 
     /**
      * @param Request $request

@@ -26,19 +26,23 @@ class Tarefas
      * @ORM\Column(type="string", length=255)
      */
     private $nome;
-
     /**
      * @ORM\Column(type="string", length=255)
      */
     private $descricao;
+
     /**
      * @ORM\Column(type="smallint")
      */
-    private $horas;
+    private $hora;
     /**
      * @ORM\Column(type="datetime", name="data_inicio")
      */
     private $dataInicio;
+    /**
+     * @ORM\Column(type="datetime", name="data_fim")
+     */
+    private $dataFim;
     /**
      * @ORM\Column(type="datetime", name="data_in")
      */
@@ -66,11 +70,14 @@ class Tarefas
     }
 
     /**
-     * @param mixed $id
+     * @param $id
+     * @return $this
      */
     public function setId($id)
     {
         $this->id = $id;
+
+        return $this;
     }
 
     /**
@@ -82,11 +89,14 @@ class Tarefas
     }
 
     /**
-     * @param mixed $nome
+     * @param $nome
+     * @return $this
      */
     public function setNome($nome)
     {
         $this->nome = $nome;
+
+        return $this;
     }
 
     /**
@@ -98,27 +108,33 @@ class Tarefas
     }
 
     /**
-     * @param mixed $descricao
+     * @param $descricao
+     * @return $this
      */
     public function setDescricao($descricao)
     {
         $this->descricao = $descricao;
+
+        return $this;
     }
 
     /**
      * @return mixed
      */
-    public function getHoras()
+    public function getHora()
     {
-        return $this->horas;
+        return $this->hora;
     }
 
     /**
-     * @param mixed $horas
+     * @param $hora
+     * @return $this
      */
-    public function setHoras($horas)
+    public function setHora($hora)
     {
-        $this->horas = $horas;
+        $this->hora = $hora;
+
+        return $this;
     }
 
     /**
@@ -130,12 +146,35 @@ class Tarefas
     }
 
     /**
-     * @param mixed $dataInicio
+     * @param $dataInicio
+     * @return $this
      */
     public function setDataInicio($dataInicio)
     {
         $this->dataInicio = $dataInicio;
+
+        return $this;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getDataFim()
+    {
+        return $this->dataFim;
+    }
+
+    /**
+     * @param $dataFim
+     * @return $this
+     */
+    public function setDataFim($dataFim)
+    {
+        $this->dataFim = $dataFim;
+
+        return $this;
+    }
+
 
     /**
      * @return mixed
@@ -146,11 +185,14 @@ class Tarefas
     }
 
     /**
-     * @param mixed $dataIn
+     * @param $dataIn
+     * @return $this
      */
     public function setDataIn($dataIn)
     {
         $this->dataIn = $dataIn;
+
+        return $this;
     }
 
     /**
@@ -162,11 +204,14 @@ class Tarefas
     }
 
     /**
-     * @param mixed $dataDelete
+     * @param $dataDelete
+     * @return $this
      */
     public function setDataDelete($dataDelete)
     {
         $this->dataDelete = $dataDelete;
+
+        return $this;
     }
 
     /**
@@ -178,11 +223,14 @@ class Tarefas
     }
 
     /**
-     * @param mixed $deleted
+     * @param $deleted
+     * @return $this
      */
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
+
+        return $this;
     }
 
     /**
@@ -194,10 +242,13 @@ class Tarefas
     }
 
     /**
-     * @param mixed $projetoid
+     * @param $projetoid
+     * @return $this
      */
     public function setProjetoid($projetoid)
     {
         $this->projetoid = $projetoid;
+
+        return $this;
     }
 }

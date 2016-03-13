@@ -4,34 +4,65 @@ $(document).ready(function(){
      */
     body.on('click', '#salvarProjeto', function() {
 
-        $.post({
-            url: host + '/projetos/',
-            type: 'POST',
-            dataType: 'JSON',
-            data: {
-                'tituloProjeto': $('#tituloProjeto').val(),
-                'descricaoProjeto': $('#descricaoProjeto').val(),
-                'dataInicio': $('#dataInicio').val(),
-                'dataFim': $('#dataFim').val(),
-                'selectArea': $('#selectArea').val()
-            },
+        url = '/projetos/';
 
-            beforeSend: function () {
+        if(typeof $('#codigoProjeto') != 'undefined') {
+            atualizaProjeto($('#codigoProjeto').val());
+        } else {
+            salvaProjeto();
+        }
 
-            },
 
-            error: function () {
-                alert('Erro!');
-            },
-
-            success: function ($return, $jqXHR) {
-                if ($jqXHR == 'success') {
-                    alert('Projeto: ' + $return.nome + ' inserido com sucesso!');
-                } else {
-                    alert('Erro ao inserir!');
-                }
-            }
-        });
     });
 
 });
+
+function salvaProjeto() {
+    $.post({
+        url: host + '/projetos/',
+        type: 'POST',
+        dataType: 'JSON',
+        data: {
+            'tituloProjeto': $('#tituloProjeto').val(),
+            'descricaoProjeto': $('#descricaoProjeto').val(),
+            'dataInicio': $('#dataInicioProjeto').val(),
+            'dataFim': $('#dataFimProjeto').val(),
+            'selectArea': $('#selectArea').val()
+        },
+
+        beforeSend: function () {
+
+        },
+
+        error: function () {
+            alert('Erro!');
+        },
+
+        success: function ($return, $jqXHR) {
+            if ($jqXHR == 'success') {
+                alert('Projeto: ' + $return.nome + ' inserido com sucesso!');
+            } else {
+                alert('Erro ao inserir!');
+            }
+        }
+    });
+}
+
+function atualizaProjeto(codigoProjeto) {
+
+    $.ajax({
+        url: host + '/projetos/' + codigoProjeto,
+        type: 'PUT',
+        dataType: 'JSON',
+        data: {
+            'id': $('#codigoProjeto').val(),
+            'tituloProjeto': $('#tituloProjeto').val(),
+            'descricaoProjeto': $('#descricaoProjeto').val(),
+            'dataInicio': $('#dataInicioProjeto').val(),
+            'dataFim': $('#dataFimProjeto').val(),
+            'selectArea': $('#selectArea').val()
+        },
+
+        success: atualizaTabelaProjeto()
+    });
+}

@@ -1,33 +1,11 @@
 $(document).ready(function(){
 
-    body.on('click', '.backlogFromProject', function(e){
-        e.preventDefault();
-        var link = $(this).attr('href');
-        var nome = $(this).data('nome');
-        var id = $(this).data('id');
-        var backLogTable = $('#projetoBacklog');
-
-        $.get({
-            url:link,
-            error: function(){
-                alert('Erro ao buscar os dados!');
-            },
-            success: function(data) {
-                $('#projetoModal').modal('hide');
-                backLogTable.text(nome);
-                backLogTable.attr('data-id', id);
-
-                motarTabelaBacklog(id);
-            }
-        })
-
-    });
-
     $('td.Tarefa').droppable(function(){
         alert('trabaia cumpadi');
     });
 
     $('td.Desenvolvendo').droppable(function(){
+        alert('Desenvolvi cumpadi');
         alert('Desenvolvi cumpadi');
     });
 
@@ -35,10 +13,19 @@ $(document).ready(function(){
         alert('Finaliza cumpadi');
     });
 
-    body.on('click', '#salvarFormulario', function(){
+    body.on('click', '#salvarBacklog', function(){
+        salvaBacklog({
+            nome:$('#tituloTarefa').val(),
+            descricao:$('#descricaoTarefa').val(),
+            horas:$('#horasTarefa').val(),
+            dataInicio:$('#dataInicioTarefa').val(),
+            dataFim:$('#dataFimTarefa').val(),
+            projetoId: $('#projetoBacklog').attr('data-id')
+        });
+
         var $novaTarefa = $('.tarefaView').clone();
         $novaTarefa.find('.tituloTarefaView').html($('#tituloTarefa').val());
-        //$novaTarefa.find('.descricaoTarefaView').html($('#descricaoTarefa').val());
+        $novaTarefa.find('.descricaoTarefaView').html($('#descricaoTarefa').val());
         $novaTarefa.find('.horasTarefaView').html($('#horasTarefa').val());
         $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', $('.tarefaAgendada').length+1).draggable();
 
@@ -56,7 +43,7 @@ $(document).ready(function(){
     });
 });
 
-function motarTabelaBacklog(id) {
+function montarTabelaBacklog(id) {
     $('#backlogTable').append(
         '<tr>' +
             '<td class="to_do_'+id+'" style></td>'+
@@ -64,4 +51,10 @@ function motarTabelaBacklog(id) {
             '<td class="done_'+id+'"></td>'+
         '</tr>'
     );
+}
+
+function salvaBacklog(data) {
+    $.post(host+'/backlog/', data, function(){
+
+    });
 }

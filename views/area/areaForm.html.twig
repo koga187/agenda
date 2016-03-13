@@ -1,8 +1,8 @@
 {% block stylesheet %}
-<link rel="stylesheet" type="text/css" href="../css/area.css">
+<link rel="stylesheet" type="text/css" href="http://{{ app.request.server.get('HTTP_HOST') }}/css/area.css">
 {% endblock %}
 {% block javascript %}
-<script src="../js/areaForm.js" type="application/javascript"></script>
+<script src="http://{{ app.request.server.get('HTTP_HOST') }}/js/areaForm.js" type="application/javascript"></script>
 {% endblock %}
 <div class="modal fade" id="areaForm" role="dialog">
     <div class="modal-dialog">

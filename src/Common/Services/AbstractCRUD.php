@@ -59,6 +59,7 @@ abstract class AbstractCRUD
     public function update($entityClass, array $data)
     {
         $entity = $this->em->find($entityClass, $data['id']);
+
         $objectHydrated = EntityHydrator::hydrate($entity, $data);
 
         $this->em->persist($objectHydrated);

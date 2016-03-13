@@ -2,11 +2,11 @@
 
 require_once __DIR__.'/../bootstrap.php';
 
-//$response->headers->set('Content-Type', 'json;charset=UTF-8');
-
 $app->get( '/', function() use ($app) {
     return $app['twig']->render('layout.html.twig', array('backlog'=>false, 'timeline'=>false, 'codigoArea' => true));
 });
+
+$app['url'] = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'];
 
 $app->mount('/backlog', new Backlog\Routes());
 $app->mount('/timeline', new Timeline\Routes());

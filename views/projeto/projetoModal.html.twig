@@ -1,5 +1,5 @@
 {% block javascript %}
-    <script src="../js/projetoModal.js" type="application/javascript"></script>
+    <script src="http://{{ app.request.server.get('HTTP_HOST') }}/js/projetoModal.js" type="application/javascript"></script>
 {% endblock %}
 <div class="modal fade" id="projetoModal" role="dialog">
     <div class="modal-dialog">

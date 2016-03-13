@@ -1,5 +1,5 @@
 {% block javascript %}
-<script src="../js/areaModal.js" type="application/javascript"></script>
+<script src="http://{{ app.request.server.get('HTTP_HOST') }}/js/areaModal.js" type="application/javascript"></script>
 {% endblock %}
 <div class="modal fade" id="areaModal" role="dialog">
     <div class="modal-dialog">

@@ -1,24 +1,9 @@
-function atualizaTabelaProjeto(jsonArea) {
-    var table = $('#tableProjeto');
-
-    var data = Array();
-
-    $.each(jsonArea, function(key, value){
-        data.push($.extend(value,  {acoes : botaoAlteracao(value.id)+botaoExclusao(value.id)}));
+function atualizaTabelaProjeto() {
+    $('#projetoForm').modal('hide');
+    $(function () {
+        $('#tableProjeto').bootstrapTable('refresh');
     });
-
-    var tableParams = {
-        columns: [
-            { field: 'id',  title: 'Código',   align: 'center',   valign: 'middle', sortable: true, class : 'noWrap', width : '100px'},
-            { field: 'nome',     title: 'Nome',     align: 'left', valign: 'middle', sortable: true, width : '300px'},
-            { field: 'acoes',     title: 'Ações',     align: 'center', valign: 'middle', sortable: false }
-        ],
-        data : data
-    };
-
-    table.bootstrapTable(tableParams);
 }
-
 
 function geraTabelaProjeto() {
 
@@ -35,7 +20,7 @@ function geraTabelaProjeto() {
                 return {total:0, rows:[]};
             },
             onLoadSuccess: function(_data) {
-                console.log(_data);
+
             },
             onLoadError: function(_status) {
                 alert(_status);
@@ -57,4 +42,35 @@ function geraTabelaProjeto() {
             ]
         });
     });
+}
+
+function editProjeto(event, url) {
+    event.preventDefault();
+    $('#projetoForm').modal('show');
+
+    $.get(url, function(data){
+        data = JSON.parse(data);
+
+        $('#tituloProjeto').val(data.nome);
+        $('#descricaoProjeto').val(data.descricao);
+        $('#selectArea').val(data.idArea);
+        $('#dataInicioProjeto').val(data.dataInicio);
+        $('#dataFimProjeto').val(data.dataFim);
+        $('#codigoProjeto').val(data.id);
+    });
+}
+
+function acoesBotoesProjeto() {
+    return [
+        '<a class="backlogFromProject" data-toggle="tooltip" title="Backlog" href="',host,'/backlog/projeto/',arguments[1].id,'"' +
+        'data-id="',arguments[1].id,'" data-nome="',arguments[1].nome,'">',
+        '<span class="glyphicon glyphicon-th"></span>',
+        '</a>',
+        '<a class="editProjeto" data-toggle="tooltip" title="Editar" href="',host,'/projetos/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-pencil"></span>',
+        '</a>',
+        '<a class="excluirProjeto" data-toggle="tooltip" title="Excluir" href="',host,'/projetos/',arguments[1].id,'">',
+        '<span class="glyphicon glyphicon-trash"></span>',
+        '</a>'
+    ].join('');
 }

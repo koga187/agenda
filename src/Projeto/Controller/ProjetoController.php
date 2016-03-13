@@ -83,14 +83,14 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
 
     /**
      * @param Application $app
+     * @return Response
      */
     public function readByIdAction(Application $app)
     {
         $request = $app['request'];
 
         $projetoService = new ProjetoService($app['entity_manager']);
-        $array = $projetoService->readById($request->get('id'));
-
+        $arrayProjeto = $projetoService->readById($request->get('id'));
 
         $dados = [];
         $status = Response::HTTP_NO_CONTENT;
@@ -98,17 +98,14 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
         /**
          * @var Projetos $array[]
          */
-        if(count($array) > 0) {
-            $dados['id'] = $array[0]->getId();
-            $dados['nome'] = $array[0]->getNome();
-            $dados['descricao'] = $array[0]->getDescricao();
-            $dados['idArea'] = $array[0]->getAreaId()->getId();
-            $dados['dataInicio'] = $array[0]->getDataInicio()->format('d/m/Y');
-            $dados['dataFim'] = $array[0]->getDataFim()->format('d/m/Y');
+        if(count($arrayProjeto) > 0) {
+            $dados = $arrayProjeto;
             $status = Response::HTTP_OK;
         }
 
-        $this->response->setContent(json_encode($dados))
+        $content = json_encode($dados);
+
+        $this->response->setContent($content)
             ->setStatusCode($status);
 
         return $this->response;
@@ -142,14 +139,34 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
+     * @param Application $app
+     * @return Response
      */
-    public function updateAction(Request $request, EntityManager $em, Response $response)
+    public function updateAction(Application $app)
     {
+        $request = $app['request'];
+        $projetoService = new ProjetoService($app['entity_manager']);
 
+        $dados = [
+            'id' => $request->get('id'),
+            'nome' => $request->get('tituloProjeto'),
+            'descricao' => $request->get('descricaoProjeto'),
+            'areaId' => $request->get('selectArea'),
+            'dataInicio' => new \DateTime($request->get('dataInicio')),
+            'dataFim' => new \DateTime($request->get('dataFim'))
+        ];
+
+        $entityProjeto = $projetoService->update($dados);
+
+        if($entityProjeto instanceof Projetos) {
+            $status = Response::HTTP_OK;
+        } else {
+            $status = Response::HTTP_NO_CONTENT;
+        }
+
+        $this->response->setStatusCode($status);
+
+        return $this->response;
     }
 
     /**

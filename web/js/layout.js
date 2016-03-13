@@ -27,8 +27,10 @@ $(document).ready(function(){
 
             },
             success: function($return) {
-                if($('#selectArea').length > 0) {
-                    $('#selectArea').remove();
+                var selectArea = $('#selectArea');
+
+                if(selectArea.length > 0) {
+                    selectArea.remove();
                 }
                 $('div#formProjeto').append(createOption('selectArea', $return.rows));
             },
@@ -37,35 +39,11 @@ $(document).ready(function(){
             }
         });
     });
+
+    body.on('click', 'a.editProjeto', function(e){
+        editProjeto(event, $(this).attr('href'));
+    });
 });
-
-function acoesBotoesArea() {
-    return [
-        '<a class="editItem" data-toggle="tooltip" title="Editar" href="',host,'/areas/',arguments[1].id,'">',
-        '<span class="glyphicon glyphicon-pencil"></span>',
-        '</a>',
-        '<a class="excluirItem" data-toggle="tooltip" title="Excluir" href="',host,'/areas/',arguments[1].id,'">',
-        '<span class="glyphicon glyphicon-trash"></span>',
-        '</a>'
-    ].join('');
-    //return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";
-}
-
-function acoesBotoesProjeto() {
-    return [
-        '<a class="backlogFromProject" data-toggle="tooltip" title="Backlog" href="',host,'/projetos/',arguments[1].id,'/backlogs"' +
-        'data-id="',arguments[1].id,'" data-nome="',arguments[1].nome,'">',
-        '<span class="glyphicon glyphicon-th"></span>',
-        '</a>',
-        '<a class="editItem" data-toggle="tooltip" title="Editar" href="',host,'/projetos/',arguments[1].id,'">',
-        '<span class="glyphicon glyphicon-pencil"></span>',
-        '</a>',
-        '<a class="excluirItem" data-toggle="tooltip" title="Excluir" href="',host,'/projetos/',arguments[1].id,'">',
-        '<span class="glyphicon glyphicon-trash"></span>',
-        '</a>'
-    ].join('');
-    //return "<span class='glyphicon glyphicon-remove acoes' id='"+id+"'></span>";
-}
 
 function createOption(id, values) {
     option = '<label for="selectArea">Selecione a Area</label>' +

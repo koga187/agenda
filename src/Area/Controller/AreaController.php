@@ -83,14 +83,12 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
+     * @param Application $app
+     * @return Response
      */
-    public function updateAction(Request $request, EntityManager $em, Response $response)
+    public function updateAction(Application $app)
     {
-
+        return $this->response;
     }
 
     /**

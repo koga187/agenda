@@ -52,6 +52,16 @@ class StatusTarefa
     /**
      * @return mixed
      */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getStatusId()
     {
         return $this->statusId;

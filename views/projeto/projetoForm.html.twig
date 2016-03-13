@@ -1,5 +1,5 @@
 {% block javascript %}
-    <script src="../js/projetoForm.js" type="application/javascript"></script>
+    <script src="http://{{ app.request.server.get('HTTP_HOST') }}/js/projetoForm.js" type="application/javascript"></script>
 {% endblock %}
 <div class="modal fade" id="projetoForm" role="dialog">
     <div class="modal-dialog">
@@ -13,12 +13,13 @@
                 <div id="formProjeto" >
                     <label for="tituloProjeto">Titulo</label>
                     <input type="text" name="tituloProjeto" id="tituloProjeto" class="form-control"/>
+                    <input type="hidden" name="codigoProjeto" id="codigoProjeto"/>
                     <label for="descricaoProjeto">Descrição</label>
                     <input type="text" name="descricaoProjeto" id="descricaoProjeto" class="form-control"/>
                     <label for="dataInicio">Data Inicio</label>
-                    <input type="date" name="dataInicio" id="dataInicio" class="form-control">
+                    <input type="date" name="dataInicioProjeto" id="dataInicioProjeto" value="" class="form-control">
                     <label for="dataFim">Data Fim</label>
-                    <input type="date" name="dataFim" id="dataFim" class="form-control">
+                    <input type="date" name="dataFimProjeto" id="dataFimProjeto" format="dd/MM/yyyy" value="" class="form-control">
                 </div>
             </div>
             <div class="modal-footer form-group">
