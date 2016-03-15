@@ -21,15 +21,21 @@ $(document).ready(function(){
     });
 
     body.on('click', '#salvarBacklog', function(){
+        var typeRequest = 'post';
+        var idTarefa = $('#idTarefa').val();
+        if(idTarefa != '') {
+            typeRequest = 'put';
+        }
+
         salvaBacklog({
+            id: idTarefa,
             nome:$('#tituloTarefa').val(),
             descricao:$('#descricaoTarefa').val(),
             horas:$('#horasTarefa').val(),
             dataInicio:$('#dataInicioTarefa').val(),
             dataFim:$('#dataFimTarefa').val(),
             projetoId: $('#projetoBacklog').attr('data-id')
-        });
-
+        }, typeRequest);
     });
 
     body.on('click', '.editTarefa', function(e){
@@ -62,25 +68,21 @@ $(document).ready(function(){
     });
 });
 
-function montarTabelaBacklog(id) {
-    $('#backlogTable').append(
-        '<tr>' +
-            '<td class="to_do_'+id+'" style></td>'+
-            '<td class="progress_'+id+'"></td>'+
-            '<td class="done_'+id+'"></td>'+
-        '</tr>'
-    );
-}
-
-function salvaBacklog(data) {
+function salvaBacklog(data, typeRequest) {
     $.ajax({
         url: host+'/backlog/',
         data: data,
+        type:typeRequest,
         error: function() {
             alert('Erro na requisição');
         },
         success: function(response) {
-            addTarefa(response);
+            if(typeRequest == 'post') {
+                addTarefa(response);
+            } else {
+                updateTarefa(response);
+            }
+
         }
     });
 }

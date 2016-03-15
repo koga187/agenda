@@ -92,6 +92,29 @@ class BacklogController extends ApiControllerAbstract implements ApiControllerIn
      */
     public function updateAction(Application $app)
     {
+        $request = $app['request'];
+
+        $dados = [
+            'id'         => $request->get('id'),
+            'nome'       => $request->get('nome'),
+            'descricao'  => $request->get('descricao'),
+            'horas'      => $request->get('horas'),
+            'dataInicio' => new \DateTime($request->get('dataInicio')),
+            'dataFim'    => new \DateTime($request->get('dataFim')),
+            'projetoId'  => $request->get('projetoId')
+        ];
+
+        $backlogService = new BacklogServices($app['entity_manager']);
+        $backlogReference = $backlogService->update($dados);
+
+        $status = Response::HTTP_NOT_MODIFIED;
+
+        if($backlogReference instanceof Tarefas) {
+            $status = Response::HTTP_OK;
+        }
+
+        $this->response->setStatusCode($status);
+
         return $this->response;
     }
 

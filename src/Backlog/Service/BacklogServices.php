@@ -86,4 +86,26 @@ class BacklogServices extends AbstractCRUD
 
         return $dados;
     }
+
+    /**
+     * @param $dados
+     */
+    public function update($dados)
+    {
+        $projetoReference = $this->em->find('Common\Entity\Projetos', $dados['projetoId']);
+        $tarefaReference = $this->em->find('Common\Entity\Tarefas', $dados['id']);
+
+        $tarefaReference->setNome($dados['nome'])
+            ->setDescricao($dados['descricao'])
+            ->setHora($dados['horas'])
+            ->setDataInicio($dados['dataInicio'])
+            ->setdataFim($dados['dataFim'])
+            ->setProjetoid($projetoReference);
+
+        $this->em->persist($tarefaReference);
+        $this->em->flush();
+
+        return $tarefaReference;
+
+    }
 }
