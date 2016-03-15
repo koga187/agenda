@@ -37,11 +37,7 @@
         <tfoot>
         </tfoot>
     </table>
-
-    <div class="tarefaView">
-        <h4 class="tituloTarefaView"></h4>
-        <span class="descricaoTarefaView"></span>
-        <span class="horasTarefaView"></span>
-    </div>
+    {% include 'backlog/tarefa.html.twig' %}
     {% include 'backlog/backlogForm.html.twig' %}
+    <div id="jsonTarefas" style="display: none">{{ tarefa }}</div>
 {% endblock body %}

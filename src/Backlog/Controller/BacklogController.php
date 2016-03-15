@@ -18,7 +18,7 @@ use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class backlogController extends ApiControllerAbstract implements ApiControllerInterface
+class BacklogController extends ApiControllerAbstract implements ApiControllerInterface
 {
     /**
      * @param Application $app
@@ -44,6 +44,13 @@ class backlogController extends ApiControllerAbstract implements ApiControllerIn
         $status = Response::HTTP_NO_CONTENT;
 
         if($entityBacklog instanceof Tarefas) {
+            $content = array(
+                'id' => $entityBacklog->getId(),
+                'nome' => $entityBacklog->getNome(),
+                'descricao' => $entityBacklog->getDescricao(),
+                'hora' => $entityBacklog->getHora()
+            );
+            $this->response->setContent(json_encode($content));
             $status = Response::HTTP_OK;
         }
 
@@ -67,6 +74,15 @@ class backlogController extends ApiControllerAbstract implements ApiControllerIn
      */
     public function readByIdAction(Application $app)
     {
+        $request = $app['request'];
+        $idBacklog = $request->get('id');
+
+        $backLogService = new BacklogServices($app['entity_manager']);
+        $content = $backLogService->readById($idBacklog);
+
+        $this->response->setContent(json_encode($content))
+            ->setStatusCode(Response::HTTP_OK);
+
         return $this->response;
     }
 

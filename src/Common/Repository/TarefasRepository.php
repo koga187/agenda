@@ -21,4 +21,17 @@ class TarefasRepository extends EntityRepository
             ->createQuery($dql)
             ->getResult();
     }
+
+    /**
+     * @param $idTarefa
+     * @return array
+     */
+    public function getTarefaById($idTarefa)
+    {
+        $dql = "SELECT t FROM Common\Entity\Tarefas t WHERE t.id = {$idTarefa}";
+
+        return $this->getEntityManager()
+            ->createQuery($dql)
+            ->getResult();
+    }
 }

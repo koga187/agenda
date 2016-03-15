@@ -2,6 +2,10 @@ td.to_do{
     width: 400px;
 }
 
+.tarefaView{
+    display: none;
+}
+
 div.tarefaAgendada{
     width: 180px;
     height: 95px;

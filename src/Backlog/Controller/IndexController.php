@@ -41,6 +41,6 @@ class IndexController
             'timeline'=>false,
             'codigoArea' => true,
             'projeto' => $arrayProjeto,
-            'tarefa' => $arrayBackLogs));
+            'tarefa' => json_encode($arrayBackLogs)));
     }
 }

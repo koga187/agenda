@@ -22,8 +22,22 @@ class BacklogServices extends AbstractCRUD
          * @var TarefasRepository $repository
          */
         $repository = $this->em->getRepository('Common\Entity\Tarefas');
+        $resBackLog = $repository->getBackLogFromProjeto($idProjeto);
 
-        return $repository->getBackLogFromProjeto($idProjeto);
+        $arrayReturn = [];
+
+        if(count($resBackLog) > 0) {
+            foreach($resBackLog as $backlog) {
+                $arrayReturn[] = array(
+                    'nome' => $backlog->getNome(),
+                    'descricao' => $backlog->getDescricao(),
+                    'hora' => $backlog->getHora(),
+                    'id' => $backlog->getId()
+                );
+            }
+        }
+
+        return $arrayReturn;
     }
 
     /**
@@ -51,5 +65,25 @@ class BacklogServices extends AbstractCRUD
         $this->em->flush();
 
         return $tarefaEntity;
+    }
+
+    /**
+     * @param $id
+     * @return array
+     */
+    public function readById($id)
+    {
+        $repository = $this->em->getRepository('Common\Entity\Tarefas');
+
+        $resProjeto = $repository->getTarefaById($id);
+
+        $dados['id'] = $resProjeto[0]->getId();
+        $dados['nome'] = $resProjeto[0]->getNome();
+        $dados['descricao'] = $resProjeto[0]->getDescricao();
+        $dados['hora'] = $resProjeto[0]->getHora();
+        $dados['dataInicio'] = $resProjeto[0]->getDataInicio()->format('Y-m-d');
+        $dados['dataFim'] = $resProjeto[0]->getDataFim()->format('Y-m-d');
+
+        return $dados;
     }
 }
