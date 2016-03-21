@@ -22,7 +22,7 @@ class StatusTarefaServices extends AbstractCRUD
             ->setStatusId($referenceStatus);
 
         $this->em->persist($entity);
-        $this->em->flush();]
+        $this->em->flush();
 
         return $entity;
     }
