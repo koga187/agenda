@@ -16,7 +16,7 @@
 			"Projeto\\":"src/Projeto/",
 			"Area\\":"src/Area/",
 			"EmailArea\\":"src/EmailArea/",
-			"Proxies\\":"tmp/Proxies"
+			"StatusTarefa\\":"src/StatusTarefa/"
 		}
 	}
 }

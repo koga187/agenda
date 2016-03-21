@@ -12,9 +12,11 @@ namespace Backlog\Controller;
 use Backlog\Service\BacklogServices;
 use Common\Controller\ApiControllerAbstract;
 use Common\Controller\ApiControllerInterface;
+use Common\Entity\StatusTarefa;
 use Common\Entity\Tarefas;
 use Doctrine\ORM\EntityManager;
 use Silex\Application;
+use StatusTarefa\Service\StatusTarefaServices;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -44,6 +46,14 @@ class BacklogController extends ApiControllerAbstract implements ApiControllerIn
         $status = Response::HTTP_NO_CONTENT;
 
         if($entityBacklog instanceof Tarefas) {
+
+            $statusService = new StatusTarefaServices($app['entity_manager']);
+            $statusService->create(new StatusTarefa(), array(
+                'statusId' => 1,
+                'tarefaId' => $entityBacklog,
+                'dataIn'   => new \DateTime('now')
+            ));
+
             $content = array(
                 'id' => $entityBacklog->getId(),
                 'nome' => $entityBacklog->getNome(),

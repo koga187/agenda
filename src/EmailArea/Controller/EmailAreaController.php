@@ -53,14 +53,12 @@ class EmailAreaController extends ApiControllerAbstract implements ApiController
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
+     * @param Application $app
+     * @return Response
      */
     public function readAction(Application $app)
     {
-
+        return $this->response;
     }
 
     public function readByIdAction(Application $app)

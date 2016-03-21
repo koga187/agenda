@@ -2,7 +2,7 @@ $(document).ready(function(){
     var jsonTarefas = $('#jsonTarefas').text();
     var modalTarefa = $('#modalTarefa');
 
-    if(jsonTarefas != '') {
+    if(jsonTarefas != 'Array' && jsonTarefas.length > 0) {
         jsonTarefas = JSON.parse(jsonTarefas);
         addTarefa(jsonTarefas);
     }
@@ -77,17 +77,17 @@ function salvaBacklog(data, typeRequest) {
             alert('Erro na requisição');
         },
         success: function(response) {
-            if(typeRequest == 'post') {
-                addTarefa(response);
+            if(response.length > 0) {
+                location.reload();
             } else {
-                updateTarefa(response);
+                alert('Erro no retorno do servidor');
             }
-
         }
     });
 }
 
 function addTarefa(jsonTarefas) {
+    if(jsonTarefas)
     $.each(jsonTarefas, function(key, tarefa){
         var $novaTarefa = $('.tarefaView').clone();
         $novaTarefa.find('.tituloTarefaView').html(tarefa.nome);

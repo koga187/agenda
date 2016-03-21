@@ -68,11 +68,14 @@ class StatusTarefa
     }
 
     /**
-     * @param mixed $statusId
+     * @param $statusId
+     * @return $this
      */
     public function setStatusId($statusId)
     {
         $this->statusId = $statusId;
+
+        return $this;
     }
 
     /**
@@ -84,11 +87,14 @@ class StatusTarefa
     }
 
     /**
-     * @param mixed $tarefaId
+     * @param $tarefaId
+     * @return $this
      */
     public function setTarefaId($tarefaId)
     {
         $this->tarefaId = $tarefaId;
+
+        return $this;
     }
 
     /**
@@ -100,11 +106,14 @@ class StatusTarefa
     }
 
     /**
-     * @param mixed $dataIn
+     * @param $dataIn
+     * @return $this
      */
     public function setDataIn($dataIn)
     {
         $this->dataIn = $dataIn;
+
+        return $this;
     }
 
     /**
@@ -116,10 +125,13 @@ class StatusTarefa
     }
 
     /**
-     * @param mixed $dataOut
+     * @param $dataOut
+     * @return $this
      */
     public function setDataOut($dataOut)
     {
         $this->dataOut = $dataOut;
+
+        return $this;
     }
 }
