@@ -49,7 +49,7 @@ $(document).ready(function(){
                 },
 
                 error: function () {
-                    alert('Erro!');
+
                 },
 
                 success: function ($return, $jqXHR) {

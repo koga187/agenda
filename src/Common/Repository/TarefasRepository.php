@@ -15,7 +15,20 @@ class TarefasRepository extends EntityRepository
 {
     public function getBackLogFromProjeto($idProjeto)
     {
-        $dql = "SELECT t FROM Common\Entity\Tarefas t WHERE t.projetoid = {$idProjeto}";
+        $dql = "SELECT
+                  st.id statusTarefaId,
+                  t.id,
+                  t.nome,
+                  t.descricao,
+                  t.hora,
+                  t.id,
+                  s.id statusId
+              FROM Common\Entity\StatusTarefa st
+              JOIN st.tarefaId t
+              JOIN st.statusId s
+              WHERE
+                t.projetoid = {$idProjeto}
+                AND st.dataOut IS NULL";
 
         return $this->getEntityManager()
             ->createQuery($dql)

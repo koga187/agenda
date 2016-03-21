@@ -10,10 +10,19 @@ namespace StatusTarefa\Service;
 
 
 use Common\Entity\StatusTarefa;
+use Common\Repository\StatusTarefaRepository;
 use Common\Services\AbstractCRUD;
 
 class StatusTarefaServices extends AbstractCRUD
 {
+    /**
+     * @param StatusTarefa $entity
+     * @param array $data
+     * @return StatusTarefa
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     * @throws \Doctrine\ORM\TransactionRequiredException
+     */
     public function create(StatusTarefa $entity, $data)
     {
         $referenceStatus = $this->em->find('Common\Entity\Status', $data['statusId']);
@@ -27,5 +36,23 @@ class StatusTarefaServices extends AbstractCRUD
         $this->em->flush();
 
         return $entity;
+    }
+
+    /**
+     * @param $tarefaId
+     */
+    public function updateOldStatus($tarefaId)
+    {
+        /**
+         * @var StatusTarefaRepository $repository
+         */
+        $repository = $this->em->getRepository('Common\Entity\StatusTarefa');
+
+        $resLastStatusTarefa = $repository->getLastStatusTarefaFromBacklog($tarefaId);
+
+        $resLastStatusTarefa[0]->setDataOut(new \DateTime('now'));
+
+        $this->em->persist($resLastStatusTarefa[0]);
+        $this->em->flush();
     }
 }

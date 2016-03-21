@@ -36,6 +36,10 @@ class StatusTarefaController extends ApiControllerAbstract implements ApiControl
         ];
 
         $statusTarefaService = new StatusTarefaServices($app['entity_manager']);
+
+
+        $statusTarefaService->updateOldStatus($dados['tarefaId']);
+
         $entity = $statusTarefaService->create(new StatusTarefa(), $dados);
 
         $content = json_encode([]);

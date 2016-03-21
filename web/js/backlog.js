@@ -141,7 +141,7 @@ function addTarefa(jsonTarefas) {
                 revert: "invalid",
                 scroll: true });
 
-        $('.to_do_'+projetoId).append($novaTarefa);
+        $('tbody.table-bordered').find('[data-id="'+tarefa.statusId+'"]').append($novaTarefa);
     });
 }
 

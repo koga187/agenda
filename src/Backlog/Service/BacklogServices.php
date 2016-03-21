@@ -29,10 +29,11 @@ class BacklogServices extends AbstractCRUD
         if(count($resBackLog) > 0) {
             foreach($resBackLog as $backlog) {
                 $arrayReturn[] = array(
-                    'nome' => $backlog->getNome(),
-                    'descricao' => $backlog->getDescricao(),
-                    'hora' => $backlog->getHora(),
-                    'id' => $backlog->getId()
+                    'nome' => $backlog['nome'],
+                    'descricao' => $backlog['descricao'],
+                    'hora' => $backlog['hora'],
+                    'id' => $backlog['id'],
+                    'statusId' => $backlog['statusId']
                 );
             }
         }

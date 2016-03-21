@@ -11,7 +11,7 @@ namespace Common\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Common\Repository\StatusTarefaRepository")
  * @ORM\Table(name="status_tarefa")
  */
 class StatusTarefa

@@ -27,7 +27,7 @@ $driverChain = new Doctrine\ORM\Mapping\Driver\DriverChain();
 $driverChain->addDriver($annotationDriver, 'Common');
 
 $config = new Configuration;
-$config->setProxyDir('../../../../tmp/Proxies/');
+$config->setProxyDir(__DIR__.'/tmp/Proxies/');
 $config->setProxyNamespace('Proxies');
 $config->setAutoGenerateProxyClasses(true);
 $config->setMetadataDriverImpl($driverChain);
