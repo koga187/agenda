@@ -17,8 +17,10 @@ class StatusTarefaServices extends AbstractCRUD
     public function create(StatusTarefa $entity, $data)
     {
         $referenceStatus = $this->em->find('Common\Entity\Status', $data['statusId']);
+        $referenceTarefa = $this->em->find('Common\Entity\Tarefas', $data['tarefaId']);
+
         $entity->setDataIn($data['dataIn'])
-            ->setTarefaId($data['tarefaId'])
+            ->setTarefaId($referenceTarefa)
             ->setStatusId($referenceStatus);
 
         $this->em->persist($entity);

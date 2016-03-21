@@ -50,7 +50,7 @@ class BacklogController extends ApiControllerAbstract implements ApiControllerIn
             $statusService = new StatusTarefaServices($app['entity_manager']);
             $statusService->create(new StatusTarefa(), array(
                 'statusId' => 1,
-                'tarefaId' => $entityBacklog,
+                'tarefaId' => $entityBacklog->getId(),
                 'dataIn'   => new \DateTime('now')
             ));
 

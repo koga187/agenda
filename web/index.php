@@ -15,6 +15,7 @@ $app->mount('/timeline', new Timeline\Routes());
  * API
  */
 $app->mount('/projetos', new Projeto\Routes());
+$app->mount('/status_tarefa', new StatusTarefa\Routes());
 $app->mount('/areas', new Area\Routes());
 $app->mount('/email_areas', new EmailArea\Routes());
 

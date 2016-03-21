@@ -1,23 +1,46 @@
+var projetoId;
+
 $(document).ready(function(){
     var jsonTarefas = $('#jsonTarefas').text();
     var modalTarefa = $('#modalTarefa');
+    projetoId = $('#projetoBacklog').attr('data-id');
 
     if(jsonTarefas != 'Array' && jsonTarefas.length > 0) {
         jsonTarefas = JSON.parse(jsonTarefas);
         addTarefa(jsonTarefas);
     }
 
-    $('td.Tarefa').droppable(function(){
-        alert('trabaia cumpadi');
+    $('td.to_do_'+projetoId).droppable({
+        activeClass: "ui-state-default",
+        hoverClass: "ui-state-hover",
+        drop: function(event, ui) {
+            updateStatusBacklog({
+                id:event.toElement.getAttribute('id'),
+                idStatus:event.target.getAttribute('data-id')
+            });
+        }
     });
 
-    $('td.Desenvolvendo').droppable(function(){
-        alert('Desenvolvi cumpadi');
-        alert('Desenvolvi cumpadi');
+    $('td.progress_'+projetoId).droppable({
+        activeClass: "ui-state-default",
+        hoverClass: "ui-state-hover",
+        drop: function(event, ui) {
+            updateStatusBacklog({
+                id:event.toElement.getAttribute('id'),
+                idStatus:event.target.getAttribute('data-id')
+            });
+        }
     });
 
-    $('td.Finalizado').droppable(function(){
-        alert('Finaliza cumpadi');
+    $('td.done_'+projetoId).droppable({
+        activeClass: "ui-state-default",
+        hoverClass: "ui-state-hover",
+        drop: function(event, ui) {
+            updateStatusBacklog({
+                id:event.toElement.getAttribute('id'),
+                idStatus:event.target.getAttribute('data-id')
+            });
+        }
     });
 
     body.on('click', '#salvarBacklog', function(){
@@ -76,9 +99,27 @@ function salvaBacklog(data, typeRequest) {
         error: function() {
             alert('Erro na requisição');
         },
-        success: function(response) {
-            if(response.length > 0) {
+        success: function(response, textStatus) {
+            if(textStatus == 'success') {
                 location.reload();
+            } else {
+                alert('Erro no retorno do servidor');
+            }
+        }
+    });
+}
+
+
+function updateStatusBacklog(data) {
+    $.ajax({
+        url: host+'/status_tarefa/',
+        data: data,
+        type:'post',
+        error: function() {
+            alert('Erro na requisição');
+        },
+        success: function(response, textStatus) {
+            if(textStatus == 'success') {
             } else {
                 alert('Erro no retorno do servidor');
             }
@@ -95,9 +136,12 @@ function addTarefa(jsonTarefas) {
         $novaTarefa.find('.horasTarefaView').html(tarefa.hora);
         $novaTarefa.find('.editTarefa').attr('href', 'http://agenda.local:8888/backlog/'+tarefa.id);
         $novaTarefa.find('.excluirTarefa').attr('href', 'http://agenda.local:8888/backlog/'+tarefa.id);
-        $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', tarefa.id).draggable();
+        $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', tarefa.id).draggable(
+            { containment: ".table-bordered",
+                revert: "invalid",
+                scroll: true });
 
-        $('.to_do_'+$('#projetoBacklog').attr('data-id')).append($novaTarefa);
+        $('.to_do_'+projetoId).append($novaTarefa);
     });
 }
 

@@ -27,9 +27,9 @@
         </thead>
         <tbody class="table-bordered">
             <tr>
-                <td class="to_do_{{ projeto.id }}" style></td>
-                <td class="progress_{{ projeto.id }}"></td>
-                <td class="done_{{ projeto.id }}"></td>
+                <td class="to_do_{{ projeto.id }}" data-id="1"></td>
+                <td class="progress_{{ projeto.id }}" data-id="2"></td>
+                <td class="done_{{ projeto.id }}" data-id="3"></td>
             </tr>
             {% if tarefa|length > 0 %}
             {% endif %}

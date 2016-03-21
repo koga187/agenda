@@ -9,7 +9,17 @@
 namespace StatusTarefa;
 
 
-class Routes
-{
+use Common\AbstractRoute;
+use Silex\Application;
+use Silex\ControllerProviderInterface;
 
+class Routes extends AbstractRoute implements ControllerProviderInterface
+{
+    public function connect(Application $app)
+    {
+        $routeFactory = $app['controllers_factory'];
+        $routeFactory->post('/', 'StatusTarefa\Controller\StatusTarefaController::createAction');
+
+        return $routeFactory;
+    }
 }
