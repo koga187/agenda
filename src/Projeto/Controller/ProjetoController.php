@@ -121,7 +121,7 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
         $projetoId = $request->get('id');
 
         $backlogService = new BacklogServices($app['entity_manager']);
-        $backlogService->getBacklogByProjetcId($projetoId);
+        $backlogService->getBacklogByProjectId($projetoId);
 
         $content = [];
         $status = Response::HTTP_NO_CONTENT;
@@ -170,13 +170,11 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return mixed
+     * @param Application $app
+     * @return Response
      */
-    public function deleteAction(Request $request, EntityManager $em, Response $response)
+    public function deleteAction(Application $app)
     {
-
+        return $this->response;
     }
 }

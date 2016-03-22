@@ -40,10 +40,8 @@ interface ApiControllerInterface
     public function updateAction(Application $app);
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
+     * @param Application $app
      * @return mixed
      */
-    public function deleteAction(Request $request, EntityManager $em, Response $response);
+    public function deleteAction(Application $app);
 }

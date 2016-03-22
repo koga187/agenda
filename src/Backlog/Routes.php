@@ -20,7 +20,9 @@ class Routes extends AbstractRoute implements ControllerProviderInterface
         $routeFactory = $app['controllers_factory'];
         $routeFactory->get('/', 'Backlog\Controller\IndexController::indexAction');
         $routeFactory->get('/projeto/{id}', 'Backlog\Controller\IndexController::projetoAction');
+
         $routeFactory->get('/{id}', 'Backlog\Controller\BacklogController::readByIdAction');
+        $routeFactory->delete('/{id}', 'Backlog\Controller\BacklogController::deleteAction');
         $routeFactory->post('/', 'Backlog\Controller\BacklogController::createAction');
         $routeFactory->put('/', 'Backlog\Controller\BacklogController::updateAction');
 

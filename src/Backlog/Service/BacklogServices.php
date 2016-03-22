@@ -16,7 +16,7 @@ use Doctrine\ORM\EntityManager;
 
 class BacklogServices extends AbstractCRUD
 {
-    public function getBacklogByProjetcId($idProjeto)
+    public function getBacklogByProjectId($idProjeto)
     {
         /**
          * @var TarefasRepository $repository
@@ -90,6 +90,10 @@ class BacklogServices extends AbstractCRUD
 
     /**
      * @param $dados
+     * @return null|object
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     * @throws \Doctrine\ORM\TransactionRequiredException
      */
     public function update($dados)
     {
@@ -107,6 +111,5 @@ class BacklogServices extends AbstractCRUD
         $this->em->flush();
 
         return $tarefaReference;
-
     }
 }

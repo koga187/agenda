@@ -28,7 +28,8 @@ class TarefasRepository extends EntityRepository
               JOIN st.statusId s
               WHERE
                 t.projetoid = {$idProjeto}
-                AND st.dataOut IS NULL";
+                AND st.dataOut IS NULL
+                AND t.dataDelete IS NULL";
 
         return $this->getEntityManager()
             ->createQuery($dql)

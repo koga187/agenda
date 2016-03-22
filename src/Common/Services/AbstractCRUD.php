@@ -78,7 +78,19 @@ abstract class AbstractCRUD
     {
         $entity = $this->em->getReference($entityClass, $data['id']);
         $this->em->remove($entity);
+        $this->em->flush();
 
         return true;
+    }
+
+    public function logicDelete($entityClass, array $data)
+    {
+        $entity = $this->em->find($entityClass, $data['id']);
+        $entity->setDataDelete(new \DateTime('now'));
+
+        $this->em->persist($entity);
+        $this->em->flush();
+
+        return $entity;
     }
 }

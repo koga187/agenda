@@ -14,6 +14,7 @@ use Common\Controller\ApiControllerAbstract;
 use Common\Controller\ApiControllerInterface;
 use Common\Entity\StatusTarefa;
 use Common\Entity\Tarefas;
+use Common\Services\EntityHydrator;
 use Doctrine\ORM\EntityManager;
 use Silex\Application;
 use StatusTarefa\Service\StatusTarefaServices;
@@ -129,13 +130,23 @@ class BacklogController extends ApiControllerAbstract implements ApiControllerIn
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @param Application $app
+     * @return Response
      */
-    public function deleteAction(Request $request, EntityManager $em, Response $response)
+    public function deleteAction(Application $app)
     {
+        $request = $app['request'];
+
+        $id = $request->get('id');
+
+        $backlogServices = new BacklogServices($app['entity_manager']);
+        $entity = $backlogServices->logicDelete('Common\Entity\Tarefas', ['id' => $id]);
+
+        $content = EntityHydrator::dehydrated($entity);
+
+        $this->response->setContent(json_encode($content));
+        $this->response->setStatusCode(Response::HTTP_OK);
+
         return $this->response;
     }
 }

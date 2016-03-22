@@ -31,7 +31,7 @@ class IndexController
         $idProjeto = $request->get('id');
 
         $backlogService = new BacklogServices($app['entity_manager']);
-        $arrayBackLogs = $backlogService->getBacklogByProjetcId($idProjeto);
+        $arrayBackLogs = $backlogService->getBacklogByProjectId($idProjeto);
 
         $projetoService = new ProjetoService($app['entity_manager']);
         $arrayProjeto = $projetoService->readById($idProjeto);

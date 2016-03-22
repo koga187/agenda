@@ -90,12 +90,10 @@ class StatusTarefaController extends ApiControllerAbstract implements ApiControl
     }
 
     /**
-     * @param Request $request
-     * @param EntityManager $em
-     * @param Response $response
+     * @param Application $app
      * @return Response
      */
-    public function deleteAction(Request $request, EntityManager $em, Response $response)
+    public function deleteAction(Application $app)
     {
         return $this->response;
     }
