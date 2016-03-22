@@ -58,3 +58,23 @@ function createOption(id, values) {
 
     return option;
 }
+
+function sendDeleteRequest(href) {
+    $.ajax({
+        url: href,
+        data: [],
+        dataType: 'json',
+        type:'delete',
+        error: function() {
+            alert('Erro na requisiçao!');
+            return false;
+        },
+
+        success:function(response, status, jqXHR) {
+            if(jqXHR.status == '200') {
+                alert('Excluido com sucesso!');
+                return true;
+            }
+        },
+    });
+}

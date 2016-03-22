@@ -41,6 +41,14 @@ function geraTabelaProjeto() {
                 }
             ]
         });
+
+
+        body.on('click', 'a.excluirProjeto', function(e){
+            e.preventDefault();
+            if(sendDeleteRequest($(this).attr('href'))) {
+                $('#tableProjeto').refresh();
+            }
+        });
     });
 }
 

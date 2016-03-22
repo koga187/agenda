@@ -175,6 +175,17 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
      */
     public function deleteAction(Application $app)
     {
+        $request = $app['request'];
+        $id = $request->get('id');
+
+        $projetoService = new ProjetoService($app['entity_manager']);
+        $entity = $projetoService->logicDelete('Common\Entity\Projeto', ['id' => $id]);
+
+        $dehydratedEntity = EntityHydrator::dehydrated($entity);
+
+        $this->response->setContent(json_encode($dehydratedEntity));
+        $this->response->setStatusCode(Response::HTTP_OK);
+
         return $this->response;
     }
 }

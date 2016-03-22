@@ -92,22 +92,9 @@ $(document).ready(function(){
 
     body.on('click', 'a.excluirTarefa', function(e){
         e.preventDefault();
-        $.ajax({
-            url: $(this).attr('href'),
-            data: [],
-            dataType: 'json',
-            type:'delete',
-            error: function() {
-                alert('Erro na requisiçao!');
-            },
-
-            success:function(response, status, jqXHR) {
-                if(jqXHR.status == '200') {
-                    $('div#'+response.id).remove();
-                    alert('Excluido com sucesso!');
-                }
-            },
-        });
+        if(sendDeleteRequest($(this).attr('href'))) {
+            $('div#'+response.id).remove();
+        }
     });
 });
 

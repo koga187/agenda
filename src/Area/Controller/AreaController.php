@@ -97,6 +97,17 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
      */
     public function deleteAction(Application $app)
     {
+        $request = $app['request'];
+        $id = $request->get('id');
+
+        $areaServices = new AreaService($app['entity_manager']);
+        $entity = $areaServices->logicDelete('Common\Entity\Area', ['id' => $id]);
+
+        $dehydratedEntity = EntityHydrator::dehydrated($entity);
+
+        $this->response->setContent(json_encode($dehydratedEntity));
+        $this->response->setStatusCode(Response::HTTP_OK);
+
         return $this->response;
     }
 }
