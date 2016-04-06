@@ -33,7 +33,6 @@ function geraTabelaArea() {
                 return {total:0, rows:[]};
             },
             onLoadSuccess: function(_data) {
-                console.log(_data);
             },
             onLoadError: function(_status) {
 
@@ -57,7 +56,7 @@ function geraTabelaArea() {
 
 function acoesBotoesArea() {
     return [
-        '<a class="editArea" data-toggle="tooltip" title="Editar" href="',host,'/areas/',arguments[1].id,'">',
+        '<a class="editArea" data-toggle="tooltip" title="Editar" href="',host,'/areas/emails/',arguments[1].id,'">',
         '<span class="glyphicon glyphicon-pencil"></span>',
         '</a>',
         '<a class="excluirArea" data-toggle="tooltip" title="Excluir" href="',host,'/areas/',arguments[1].id,'">',
@@ -66,3 +65,19 @@ function acoesBotoesArea() {
     ].join('');
 }
 
+
+function editArea(event, url) {
+    event.preventDefault();
+    $('#areaForm').modal('show');
+
+    $.get(url, function(data){
+        data = JSON.parse(data);
+
+        $('#tituloProjeto').val(data.nome);
+        $('#descricaoProjeto').val(data.descricao);
+        $('#selectArea').val(data.idArea);
+        $('#dataInicioProjeto').val(data.dataInicio);
+        $('#dataFimProjeto').val(data.dataFim);
+        $('#codigoProjeto').val(data.id);
+    });
+}

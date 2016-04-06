@@ -66,7 +66,6 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
             $status = Response::HTTP_OK;
             $content = json_encode($dados);
         } else {
-            $dados = [];
             $content = json_encode([]);
             $status = Response::HTTP_NO_CONTENT;
         }
@@ -79,7 +78,26 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
 
     public function readByIdAction(Application $app)
     {
+        $request = $app['request'];
+        $areaId = $request->get('id');
 
+        $areaService = new AreaService($app['entity_manager']);
+
+        $arrayAreas = [];
+
+        foreach( $areaService->getAreaAndEmailsByAreaId($areaId) as $key => $emailArea) {
+            $arrayAreas[$emailArea['id']]['nome'] = $emailArea['nome'];
+            $arrayAreas[$emailArea['id']]['descricao'] = $emailArea['descricao'];
+            $arrayAreas[$emailArea['id']]['email'][$emailArea['idEmail']][] = [
+                'nome'  => $emailArea['nomeEmail'],
+                'email' => $emailArea['email']
+            ];
+        }
+
+        $this->response->setContent(json_encode($arrayAreas))
+            ->setStatusCode(Response::HTTP_OK);
+
+        return $this->response;
     }
 
     /**

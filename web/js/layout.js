@@ -43,10 +43,14 @@ $(document).ready(function(){
     body.on('click', 'a.editProjeto', function(e){
         editProjeto(event, $(this).attr('href'));
     });
+
+    body.on('click', 'a.editArea', function(e){
+        editArea(event, $(this).attr('href'));
+    });
 });
 
 function createOption(id, values) {
-    option = '<label for="selectArea">Selecione a Area</label>' +
+    var option = '<label for="selectArea">Selecione a Area</label>' +
         '<select name="selectArea" id="selectArea" class="form-control">' +
         '<option value="">Selecione uma Area</option>';
 

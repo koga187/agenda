@@ -35,17 +35,29 @@ $config->setMetadataCacheImpl($cache);
 $config->setQueryCacheImpl($cache);
 //PATH ##{$PATH}/agenda/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Driver/DoctrineAnnotations.php##
 AnnotationRegistry::registerFile(__DIR__. DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'doctrine'.DIRECTORY_SEPARATOR.'orm'.DIRECTORY_SEPARATOR.'lib'.DIRECTORY_SEPARATOR.'Doctrine'.DIRECTORY_SEPARATOR.'ORM'.DIRECTORY_SEPARATOR.'Mapping'.DIRECTORY_SEPARATOR.'Driver'.DIRECTORY_SEPARATOR.'DoctrineAnnotations.php');
-//exit(var_dump($config);
+
 $evm = new EventManager();
+
+$mysqlInfo = array(
+    'driver'  => 'pdo_mysql',
+    'host'    => '127.0.0.1',
+    'port'    => '3306',
+    'user'    => 'root',
+    'password'=> 'root',
+    'dbname'  => 'agendamento'
+);
+
+$sqlServerInfo = array(
+    'driver'  => 'sqlsrv',
+    'host'    => '127.0.0.1',
+    'port'    => '1433',
+    'user'    => 'php_user',
+    'password'=> 'q1p0w2o9!',
+    'dbname'  => 'agendamento'
+);
+
 $em = EntityManager::create(
-    array(
-        'driver'  => 'pdo_mysql',
-        'host'    => '127.0.0.1',
-        'port'    => '3306',
-        'user'    => 'root',
-        'password'=> 'root',
-        'dbname'  => 'agendamento'
-    ),
+    $sqlServerInfo,
     $config,
     $evm
 );

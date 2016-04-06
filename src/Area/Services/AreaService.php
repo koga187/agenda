@@ -13,5 +13,11 @@ use Common\Services\AbstractCRUD;
 
 class AreaService extends AbstractCRUD
 {
+    public function getAreaAndEmailsByAreaId($idArea)
+    {
+        $repository = $this->em->getRepository('Common\Entity\Area');
+        $arrayAreas = $repository->getAreaAndEmailsByAreaId($idArea);
 
+        return $arrayAreas;
+    }
 }

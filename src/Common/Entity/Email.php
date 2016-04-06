@@ -35,6 +35,14 @@ class Email
      * @ORM\JoinColumn(name="area_id", referencedColumnName="id")
      */
     private $areaId;
+    /**
+     * @ORM\Column(type="datetime", nullable=true)
+     */
+    private $dataDelete;
+    /**
+     * @ORM\Column(type="smallint", nullable=true)
+     */
+    private $deleted;
 
     /**
      * @return mixed
@@ -106,6 +114,44 @@ class Email
     public function setAreaId($areaId)
     {
         $this->areaId = $areaId;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDataDelete()
+    {
+        return $this->dataDelete;
+    }
+
+    /**
+     * @param $dataDelete
+     * @return $this
+     */
+    public function setDataDelete($dataDelete)
+    {
+        $this->dataDelete = $dataDelete;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDeleted()
+    {
+        return $this->deleted;
+    }
+
+    /**
+     * @param $deleted
+     * @return $this
+     */
+    public function setDeleted($deleted)
+    {
+        $this->deleted = $deleted;
+
         return $this;
     }
 }

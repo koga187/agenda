@@ -21,6 +21,7 @@ class Routes extends AbstractRoute implements ControllerProviderInterface
         $routeFactory->delete('/{id}', 'Area\Controller\AreaController::deleteAction');
         $routeFactory->post('/', 'Area\Controller\AreaController::createAction');
         $routeFactory->get('/', 'Area\Controller\AreaController::readAction');
+        $routeFactory->get('/emails/{id}', 'Area\Controller\AreaController::readByIdAction');
 
         return $routeFactory;
     }
