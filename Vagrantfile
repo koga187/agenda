@@ -6,6 +6,7 @@ VAGRANTFILE_API_VERSION = '2'
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = 'bento/ubuntu-14.04'
   config.vm.network "forwarded_port", guest: 80, host: 8888
+  config.vm.network "forwarded_port", guest: 3306, host: 3306
   config.vm.hostname = "agenda.local"
   config.vm.synced_folder '.', '/var/www/html/agenda'
   config.vm.provision "shell", path: "sh/server_script.sh"
