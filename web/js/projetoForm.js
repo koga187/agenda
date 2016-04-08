@@ -6,8 +6,10 @@ $(document).ready(function(){
 
         url = '/projetos/';
 
-        if(typeof $('#codigoProjeto') != 'undefined') {
-            atualizaProjeto($('#codigoProjeto').val());
+        var codigoProjeto = $('#codigoProjeto');
+
+        if(codigoProjeto.val() != '') {
+            atualizaProjeto(codigoProjeto.val());
         } else {
             salvaProjeto();
         }
