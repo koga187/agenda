@@ -77,7 +77,7 @@ function sendDeleteRequest(href) {
         success:function(response, status, jqXHR) {
             if(jqXHR.status == '200') {
                 alert('Excluido com sucesso!');
-                return true;
+                location.reload();
             }
         },
     });

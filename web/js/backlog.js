@@ -61,15 +61,16 @@ $(document).ready(function(){
         }, typeRequest);
     });
 
-    body.on('click', '.editTarefa', function(e){
+    body.on('dblclick', '.tarefaAgendada', function(e){
         e.preventDefault();
-        $.get($(this).attr('href'), function(data){
+        $.get($(this).data('href'), function(data){
             var jsonData = JSON.parse(data);
             modalTarefa.find('#tituloTarefa').val(jsonData.nome);
             modalTarefa.find('#descricaoTarefa').val(jsonData.descricao);
             modalTarefa.find('#horasTarefa').val(jsonData.hora);
             modalTarefa.find('#dataInicioTarefa').val(jsonData.dataInicio);
             modalTarefa.find('#dataFimTarefa').val(jsonData.dataFim);
+            modalTarefa.find('.excluirTarefa').attr('data-href', host+'/backlog/'+jsonData.id);
             modalTarefa.find('#idTarefa').val(jsonData.id);
 
             modalTarefa.modal('show');
@@ -90,9 +91,9 @@ $(document).ready(function(){
 
     });
 
-    body.on('click', 'a.excluirTarefa', function(e){
+    body.on('click', '.excluirTarefa', function(e){
         e.preventDefault();
-        if(sendDeleteRequest($(this).attr('href'))) {
+        if(sendDeleteRequest($(this).data('href'))) {
             $('div#'+response.id).remove();
         }
     });
@@ -141,8 +142,7 @@ function addTarefa(jsonTarefas) {
         $novaTarefa.find('.tituloTarefaView').html(tarefa.nome);
         $novaTarefa.find('.descricaoTarefaView').html(tarefa.descricao);
         $novaTarefa.find('.horasTarefaView').html(tarefa.hora);
-        $novaTarefa.find('.editTarefa').attr('href', 'http://agenda.local:8888/backlog/'+tarefa.id);
-        $novaTarefa.find('.excluirTarefa').attr('href', 'http://agenda.local:8888/backlog/'+tarefa.id);
+        $novaTarefa.attr('data-href', host+'/backlog/'+tarefa.id);
         $novaTarefa.removeClass('tarefaView').addClass('tarefaAgendada').attr('id', tarefa.id).draggable(
             { containment: ".table-bordered",
                 revert: "invalid",

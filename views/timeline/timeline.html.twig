@@ -1,17 +1,6 @@
 {% extends 'layout.html.twig' %}
-
-{% block sub_title 'Time Line' %}
-{% block javascript %}
-    <script src="../js/timeline.js" type="application/javascript"></script>
-    <script src="../libs/moment-develop/moment.js" type="application/javascript"></script>
-    <script src="../libs/fullcalendar/fullcalendar.js" type="application/javascript"></script>
-    <script src="../libs/scheduler/scheduler.min.js" type="application/javascript"></script>
-{% endblock javascript %}
-{% block stylesheet %}
-    <link rel="stylesheet" type="text/css" href="../libs/fullcalendar/fullcalendar.css">
-    <link rel="stylesheet" type="text/css" href="../css/timeline.css">
-    <link rel="stylesheet" type="text/css" href="../libs/scheduler/scheduler.min.css">
-{% endblock stylesheet %}
 {% block body %}
-    <div id='calendar'></div>
+    <div id='calendar' style="height:100%; width:100%">
+        <iframe style="height:100%; width:100%" src="http://administrador:q1p0w2o9!@win-ap0cod45lc8/ReportServer/Pagdes/ReportViewer.aspx?/Timeline&rc:Parameters=false&rs:Command=Render"></iframe>
+    </div>
 {% endblock body %}
