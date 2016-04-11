@@ -35,6 +35,11 @@ class IndexController
 
         $projetoService = new ProjetoService($app['entity_manager']);
         $arrayProjeto = $projetoService->readById($idProjeto);
+        $arrayProjeto['dataFim']    = new \DateTime($arrayProjeto['dataFim']);
+        $arrayProjeto['dataInicio'] = new \DateTime($arrayProjeto['dataInicio']);
+
+        $arrayProjeto['dataFim']    = $arrayProjeto['dataFim']->format('d/m/Y');
+        $arrayProjeto['dataInicio'] = $arrayProjeto['dataInicio']->format('d/m/Y');
 
         return $app['twig']->render('backlog/backlog.html.twig', array(
             'backlog'=>true,

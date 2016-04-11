@@ -10,7 +10,7 @@
 {% endblock stylesheet %}
 
 {% block projetoCabecalho %}
-    <span id="projetoBacklog" data-id="{{ projeto.id }}">{{ projeto.nome }}</span>
+    <span id="projetoBacklog" data-id="{{ projeto.id }}">{{ projeto.nome }} [{{ projeto.dataInicio }} - {{ projeto.dataFim }}]</span>
 {% endblock %}
 
 {% block body %}
