@@ -31,6 +31,16 @@ Depois da extração você terá que abrir o arquivo php.ini, dentro da raiz pas
     
 Reinicie o IIS para ele carregar as nova bibliotecas (Caso ele não reinicie, é por que existe algum problema com os drivers)
 
+####Relatório
+
+Para o funcionamento do relatório você deverá criar um usuário especifico para o sistema acessa-lo e o mesmo deverá ser adicionado junto ao link vide exemplo:
+
+        http://usuario:senha@linkDoReport
+        
+No arquivo `views/timelime/timeline.html.twig` você vai alterar a tag iframe atributo src conforme exemplo abaixo
+        
+        `<iframe src="http://usuario:senha@linkDoReport"...`
+
 Ao terminar o download você precisa abrir o arquivo doctrine_config e editar de acordo com as configurações do seu banco o trecho:
 
     $sqlServerInfo = array(
@@ -60,3 +70,17 @@ Com esse comando ele criará as tabelas no banco. Após isso você irá criar o 
     http://support.simpledns.com/kb/a82/virtual-hosting-with-iis-internet-information-services.aspx
     
 
+
+
+# INSTALAÇÃO DEV VAGRANT (UBUNTU+MYSQL+APACHE)
+
+Faça a Instalação do VirtualBox e Vagrant.
+
+        https://www.virtualbox.org/
+        https://www.vagrantup.com/
+        
+execute a linha de comando abaixo dentro da razi do projeto:
+
+        vagrant up
+        
+...
