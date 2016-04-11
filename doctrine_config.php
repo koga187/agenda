@@ -57,7 +57,7 @@ $sqlServerInfo = array(
 );
 
 $em = EntityManager::create(
-    $sqlServerInfo,
+    $mysqlInfo,
     $config,
     $evm
 );

@@ -12,7 +12,6 @@ namespace Backlog\Service;
 use Common\Entity\Tarefas;
 use Common\Repository\TarefasRepository;
 use Common\Services\AbstractCRUD;
-use Doctrine\ORM\EntityManager;
 
 class BacklogServices extends AbstractCRUD
 {
@@ -54,9 +53,14 @@ class BacklogServices extends AbstractCRUD
 
         $tarefaEntity = new Tarefas();
 
+        $horas = $data['dataInicio']->diff($data['dataFim']);
+
+        $horaBacklog = $horas->h;
+        $horaBacklog += $horas->d * 24;
+
         $tarefaEntity->setNome($data['nome'])
             ->setDescricao($data['descricao'])
-            ->setHora($data['hora'])
+            ->setHora($horaBacklog)
             ->setDataInicio($data['dataInicio'])
             ->setDataFim($data['dataFim'])
             ->setProjetoid($projectReference)

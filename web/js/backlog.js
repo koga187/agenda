@@ -54,7 +54,6 @@ $(document).ready(function(){
             id: idTarefa,
             nome:$('#tituloTarefa').val(),
             descricao:$('#descricaoTarefa').val(),
-            horas:$('#horasTarefa').val(),
             dataInicio:$('#dataInicioTarefa').val(),
             dataFim:$('#dataFimTarefa').val(),
             projetoId: $('#projetoBacklog').attr('data-id')
