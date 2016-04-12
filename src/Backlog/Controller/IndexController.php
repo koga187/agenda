@@ -20,8 +20,8 @@ class IndexController
             'backlog'=>true,
             'timeline'=>false,
             'codigoArea' => true,
-            'projeto' => array('id' => 0, 'nome' => ''),
-            'tarefa' => array()
+            'projeto' => array('id' => 0, 'nome' => '', 'dataInicio' => '', 'dataFim' => ''),
+            'tarefa' => ''
         ));
     }
 
