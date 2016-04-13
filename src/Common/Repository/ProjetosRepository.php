@@ -25,4 +25,17 @@ class ProjetosRepository extends EntityRepository
             ->createQuery($dql)
             ->getResult();
     }
+
+    /**
+     * @param $id
+     * @return array
+     */
+    public function getProjetos()
+    {
+        $dql = "SELECT p FROM Common\Entity\Projetos p WHERE p.deleted IS NULL AND p.dataDelete IS NULL";
+
+        return $this->getEntityManager()
+            ->createQuery($dql)
+            ->getResult();
+    }
 }

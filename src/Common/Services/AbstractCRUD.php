@@ -86,7 +86,8 @@ abstract class AbstractCRUD
     public function logicDelete($entityClass, array $data)
     {
         $entity = $this->em->find($entityClass, $data['id']);
-        $entity->setDataDelete(new \DateTime('now'));
+        $entity->setDataDelete(new \DateTime('now'))
+            ->setDeleted(1);
 
         $this->em->persist($entity);
         $this->em->flush();

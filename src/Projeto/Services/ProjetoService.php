@@ -31,6 +31,12 @@ class ProjetoService extends AbstractCRUD
         return $projetoEntity;
     }
 
+    public function read()
+    {
+        $repository = $this->em->getRepository('Common\Entity\Projetos');
+        return $repository->getProjetos();
+    }
+
     /**
      * @param $id
      * @return array

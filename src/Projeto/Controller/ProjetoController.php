@@ -45,7 +45,7 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
             $content = json_encode($dados);
             $status  = Response::HTTP_CREATED;
         } else {
-            $content = json_encode([]);
+            $content = json_encode('');
             $status  = Response::HTTP_NOT_MODIFIED;
         }
 
@@ -71,7 +71,7 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
             $content = json_encode($dados);
         } else {
             $dados['rows'] = [];
-            $content = json_encode([]);
+            $content = json_encode(['msg'=>'Não há projetos cadastrados!']);
             $status = Response::HTTP_NO_CONTENT;
         }
 
@@ -179,7 +179,7 @@ class ProjetoController extends ApiControllerAbstract implements ApiControllerIn
         $id = $request->get('id');
 
         $projetoService = new ProjetoService($app['entity_manager']);
-        $entity = $projetoService->logicDelete('Common\Entity\Projeto', ['id' => $id]);
+        $entity = $projetoService->logicDelete('Common\Entity\Projetos', ['id' => $id]);
 
         $dehydratedEntity = EntityHydrator::dehydrated($entity);
 

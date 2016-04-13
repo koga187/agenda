@@ -48,7 +48,7 @@ class Projetos
      */
     private $dataDelete;
     /**
-     * @ORM\Column(type="binary", length=255, nullable=true)
+     * @ORM\Column(type="binary", nullable=true)
      */
     private $deleted;
     /**

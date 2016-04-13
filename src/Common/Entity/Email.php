@@ -40,7 +40,7 @@ class Email
      */
     private $dataDelete;
     /**
-     * @ORM\Column(type="smallint", nullable=true)
+     * @ORM\Column(type="binary", nullable=true)
      */
     private $deleted;
 
