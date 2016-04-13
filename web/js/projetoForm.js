@@ -1,4 +1,29 @@
 $(document).ready(function(){
+    var modalProjetoForm = $('#projetoForm');
+
+    modalProjetoForm.on('show.bs.modal', function(){
+        $.get({
+            url: host + '/areas/',
+            data: {},
+            type:'GET',
+            dataType: 'JSON',
+            beforeSend: function() {
+
+            },
+            success: function($return) {
+                var selectArea = $('#selectArea');
+
+                if(selectArea.length > 0) {
+                    selectArea.remove();
+                }
+                $('div#formProjeto').append(createOption('selectArea', $return.rows));
+            },
+            error: function() {
+
+            }
+        });
+    });
+
     /**
      * Cria projeto
      */
@@ -13,8 +38,10 @@ $(document).ready(function(){
         } else {
             salvaProjeto();
         }
+    });
 
-
+    modalProjetoForm.on('hide.bs.modal', function(){
+        limpaForm($(this));
     });
 
 });

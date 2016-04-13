@@ -85,13 +85,22 @@ class AreaController extends ApiControllerAbstract implements ApiControllerInter
 
         $arrayAreas = [];
 
-        foreach( $areaService->getAreaAndEmailsByAreaId($areaId) as $key => $emailArea) {
-            $arrayAreas[$emailArea['id']]['nome'] = $emailArea['nome'];
-            $arrayAreas[$emailArea['id']]['descricao'] = $emailArea['descricao'];
-            $arrayAreas[$emailArea['id']]['email'][$emailArea['idEmail']][] = [
-                'nome'  => $emailArea['nomeEmail'],
-                'email' => $emailArea['email']
-            ];
+        $array = $areaService->getAreaAndEmailsByAreaId($areaId);
+
+        if(count($array) > 0) {
+            foreach($array  as $key => $emailArea) {
+                $arrayAreas[$emailArea['id']]['nome'] = $emailArea['nome'];
+                $arrayAreas[$emailArea['id']]['id'] = $emailArea['id'];
+                $arrayAreas[$emailArea['id']]['descricao'] = $emailArea['descricao'];
+
+                if(!empty($emailArea['idEmail'])) {
+                    $arrayAreas[$emailArea['id']]['email'][] = [
+                        'id'    => $emailArea['idEmail'],
+                        'nome'  => $emailArea['nomeEmail'],
+                        'email' => $emailArea['email']
+                    ];
+                }
+            }
         }
 
         $this->response->setContent(json_encode($arrayAreas))

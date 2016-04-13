@@ -1,3 +1,15 @@
+$(document).ready(function(){
+    var projetoModal = $('#projetoModal');
+
+    body.on('click', 'a.editProjeto', function(e){
+        editProjeto(event, $(this).attr('href'));
+    });
+
+    projetoModal.on('show.bs.modal', function(){
+        geraTabelaProjeto();
+    });
+});
+
 function atualizaTabelaProjeto() {
     $('#projetoForm').modal('hide');
     $(function () {

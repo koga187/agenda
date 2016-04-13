@@ -22,11 +22,11 @@ class AreaRepository extends EntityRepository
                   e.id as idEmail,
                   e.email,
                   e.nome as nomeEmail
-                FROM Common\Entity\Email e
-                JOIN e.areaId a
-                  WHERE
-                    e.deleted IS NULL
-                    AND a.id = {$areaId}";
+                FROM
+                  Common\Entity\Area a
+                LEFT JOIN
+                  Common\Entity\Email e WITH e.areaId = a
+                WHERE e.deleted IS NULL AND a.id = {$areaId}";
 
         return $this->getEntityManager()
             ->createQuery($dql)

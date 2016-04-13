@@ -8,45 +8,6 @@ $(document).ready(function(){
     path = window.location.pathname;
     host = 'http://'+window.location.host;
     body = $('body');
-
-    body.on('show.bs.modal', '#areaModal', function(){
-        geraTabelaArea();
-    });
-
-    body.on('show.bs.modal', '#projetoModal', function(){
-        geraTabelaProjeto();
-    });
-
-    body.on('show.bs.modal', '#projetoForm', function(){
-        $.get({
-            url: host + '/areas/',
-            data: {},
-            type:'GET',
-            dataType: 'JSON',
-            beforeSend: function() {
-
-            },
-            success: function($return) {
-                var selectArea = $('#selectArea');
-
-                if(selectArea.length > 0) {
-                    selectArea.remove();
-                }
-                $('div#formProjeto').append(createOption('selectArea', $return.rows));
-            },
-            error: function() {
-
-            }
-        });
-    });
-
-    body.on('click', 'a.editProjeto', function(e){
-        editProjeto(event, $(this).attr('href'));
-    });
-
-    body.on('click', 'a.editArea', function(e){
-        editArea(event, $(this).attr('href'));
-    });
 });
 
 function createOption(id, values) {
@@ -81,4 +42,9 @@ function sendDeleteRequest(href) {
             }
         },
     });
+}
+
+function limpaForm(Context) {
+    Context.find('input').val('');
+    Context.find('select').val('');
 }

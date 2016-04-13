@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var modalAreaForm = $('#areaForm');
     /**
      * Cria area
      */
@@ -54,8 +55,7 @@ $(document).ready(function(){
 
                 success: function ($return, $jqXHR) {
                     if ($jqXHR == 'success') {
-                        $tr = '<tr '+$return.id+'><td>'+$return.nome+'</td><td>'+$return.email+'</td><td><span class="glyphicon glyphicon-remove deleteEmail"></span></td></tr>'
-                        $('table.tabelaEmail > tbody').append($tr);
+                        adicionaLinhaEmail($return.id, $return.nome, $return.email);
                     } else {
                         alert('Erro ao inserir!');
                     }
@@ -65,9 +65,21 @@ $(document).ready(function(){
             alert('Preencha todos os dados de Email!');
         }
     });
+
+    modalAreaForm.on('hide.bs.modal', function(){
+        limpaForm($(this));
+        $('.grid').hide();
+        $('tr.emailArea').remove()
+    });
+
 });
 
 function habilitaGridAreaEmail($_codigo) {
     $('div#areaForm .grid').css('display', 'inline');
     $('#idArea').val($_codigo)
 }
+
+ function adicionaLinhaEmail(id, nome, email) {
+     $tr = '<tr class="emailArea email_'+id+'"><td>'+nome+'</td><td>'+email+'</td><td><span class="glyphicon glyphicon-remove deleteEmail"></span></td></tr>'
+     $('table.tabelaEmail > tbody').append($tr);
+ }
