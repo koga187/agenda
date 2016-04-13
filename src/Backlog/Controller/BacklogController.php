@@ -35,7 +35,6 @@ class BacklogController extends ApiControllerAbstract implements ApiControllerIn
             'projetoId' => $request->get('projetoId'),
             'dataFim' => new \DateTime($request->get('dataFim')),
             'dataInicio' => new \DateTime($request->get('dataInicio')),
-            'hora' => $request->get('horas'),
             'descricao' => $request->get('descricao'),
             'nome' => $request->get('nome'),
             'dataIn' => new \DateTime('now')
@@ -109,7 +108,6 @@ class BacklogController extends ApiControllerAbstract implements ApiControllerIn
             'id'         => $request->get('id'),
             'nome'       => $request->get('nome'),
             'descricao'  => $request->get('descricao'),
-            'horas'      => $request->get('horas'),
             'dataInicio' => new \DateTime($request->get('dataInicio')),
             'dataFim'    => new \DateTime($request->get('dataFim')),
             'projetoId'  => $request->get('projetoId')

@@ -56,7 +56,7 @@ class BacklogServices extends AbstractCRUD
         $horas = $data['dataInicio']->diff($data['dataFim']);
 
         $horaBacklog = $horas->h;
-        $horaBacklog += $horas->d * 24;
+        $horaBacklog += $horas->d * 8;
 
         $tarefaEntity->setNome($data['nome'])
             ->setDescricao($data['descricao'])
@@ -104,9 +104,15 @@ class BacklogServices extends AbstractCRUD
         $projetoReference = $this->em->find('Common\Entity\Projetos', $dados['projetoId']);
         $tarefaReference = $this->em->find('Common\Entity\Tarefas', $dados['id']);
 
+
+        $horas = $dados['dataInicio']->diff($dados['dataFim']);
+
+        $horaBacklog = $horas->h;
+        $horaBacklog += $horas->d * 8;
+
         $tarefaReference->setNome($dados['nome'])
             ->setDescricao($dados['descricao'])
-            ->setHora($dados['horas'])
+            ->setHora($horaBacklog)
             ->setDataInicio($dados['dataInicio'])
             ->setdataFim($dados['dataFim'])
             ->setProjetoid($projetoReference);
