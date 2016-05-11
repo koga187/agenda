@@ -19,15 +19,16 @@ $(document).ready(function(){
             },
 
             error: function () {
-                alert('Erro!');
+                bootbox.alert('Erro!');
             },
 
             success: function ($return, $jqXHR) {
                 if ($jqXHR == 'success') {
-                    alert('Area: ' + $return.nome + ' inserido com sucesso!');
-                    habilitaGridAreaEmail($return.id);
+                    bootbox.alert('Area: ' + $return.nome + ' inserido com sucesso!', function() {
+                        habilitaGridAreaEmail($return.id);
+                    });
                 } else {
-                    alert('Erro ao inserir!');
+                    bootbox.alert('Erro ao inserir!');
                 }
             }
         });
@@ -57,12 +58,12 @@ $(document).ready(function(){
                     if ($jqXHR == 'success') {
                         adicionaLinhaEmail($return.id, $return.nome, $return.email);
                     } else {
-                        alert('Erro ao inserir!');
+                        bootbox.alert('Erro ao inserir!');
                     }
                 }
             });
         } else {
-            alert('Preencha todos os dados de Email!');
+            bootbox.alert('Preencha todos os dados de Email!');
         }
     });
 

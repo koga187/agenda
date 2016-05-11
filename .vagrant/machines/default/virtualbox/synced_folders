@@ -1,1 +1,1 @@
-{"virtualbox":{"/var/www/html/agenda":{"guestpath":"/var/www/html/agenda","hostpath":"/home/koga/Projetos/agenda","disabled":false}}}
+{"virtualbox":{"/var/www/html/agenda":{"guestpath":"/var/www/html/agenda","hostpath":"/home/koga/Projects/agenda","disabled":false,"__vagrantfile":true}}}

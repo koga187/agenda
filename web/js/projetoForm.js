@@ -64,14 +64,14 @@ function salvaProjeto() {
         },
 
         error: function () {
-            alert('Erro!');
+            bootbox.alert('Erro!');
         },
 
         success: function ($return, $jqXHR) {
             if ($jqXHR == 'success') {
-                alert('Projeto: ' + $return.nome + ' inserido com sucesso!');
+                bootbox.alert('Projeto: ' + $return.nome + ' inserido com sucesso!');
             } else {
-                alert('Erro ao inserir!');
+                bootbox.alert('Erro ao inserir!');
             }
         }
     });

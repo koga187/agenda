@@ -35,7 +35,7 @@ function geraTabelaProjeto() {
 
             },
             onLoadError: function(_status) {
-                alert(_status);
+                bootbox.alert(_status);
             },
             columns: [
                 { field: 'id',  title: 'Código',   align: 'center',   valign: 'middle', sortable: true, class : 'noWrap', width : '100px'},

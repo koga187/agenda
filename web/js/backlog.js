@@ -85,7 +85,7 @@ $(document).ready(function(){
 
         } else {
             ev.preventDefault();
-            alert('Cadastre projetos!');
+            bootbox.alert('Cadastre projetos!');
         }
 
     });
@@ -104,13 +104,13 @@ function salvaBacklog(data, typeRequest) {
         data: data,
         type:typeRequest,
         error: function() {
-            alert('Erro na requisição');
+            bootbox.alert('Erro na requisição');
         },
         success: function(response, textStatus) {
             if(textStatus == 'success') {
                 location.reload();
             } else {
-                alert('Erro no retorno do servidor');
+                bootbox.alert('Erro no retorno do servidor');
             }
         }
     });
@@ -123,12 +123,12 @@ function updateStatusBacklog(data) {
         data: data,
         type:'post',
         error: function() {
-            alert('Erro na requisição');
+            bootbox.alert('Erro na requisição');
         },
         success: function(response, textStatus) {
             if(textStatus == 'success') {
             } else {
-                alert('Erro no retorno do servidor');
+                bootbox.alert('Erro no retorno do servidor');
             }
         }
     });

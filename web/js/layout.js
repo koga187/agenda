@@ -31,14 +31,16 @@ function sendDeleteRequest(href) {
         dataType: 'json',
         type:'delete',
         error: function() {
-            alert('Erro na requisiçao!');
-            return false;
+            bootbox.alert('Erro na requisiçao!', function() {
+                return false;
+            });
         },
 
         success:function(response, status, jqXHR) {
             if(jqXHR.status == '200') {
-                alert('Excluido com sucesso!');
-                location.reload();
+                bootbox.alert('Excluido com sucesso!', function() {
+                    location.reload();
+                });
             }
         },
     });
