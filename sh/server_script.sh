@@ -54,6 +54,7 @@ echo "############ Baixa o composer utilizando o Curl ############"
 curl -Ss https://getcomposer.org/installer | php;
 sudo mv composer.phar /usr/bin/composer;
 echo "############ Executa o composer do projeto ############"
+cd /var/www/html/agenda/;
 composer install;
 echo "############ Instalando Mysql-Server ############"
 export DEBIAN_FRONTEND=noninteractive;
